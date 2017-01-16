@@ -258,12 +258,14 @@ Paradigms:
 	                                           makes easier to manipulate code.
          (X)
 
-	procedural: (action-centered design)  --> programmer thinks about what   											functions they need before entering 										datatype.
+	procedural: (action-centered design)  --> 
+	programmer thinks about what functions they need before entering datatype.
 
-	object-oriented: (data-centered design)  -> programmer thinks about what 												datatypes can be used before 												creating a functional code.
+	object-oriented: (data-centered design)  -> 
+	programmer thinks about what datatypes can be used before creating a functional code.
 
 
-							LEARNING A PROGRAMMING LANGUAGE
+	  LEARNING A PROGRAMMING LANGUAGE
 
 			1. Syntax.   -> writing text
 			2. Semantics. -> meaning behind text
