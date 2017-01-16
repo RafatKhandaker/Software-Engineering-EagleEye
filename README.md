@@ -8,7 +8,7 @@
 <-- Process is long and tedious. 
 
 -Punch cards were introduced to store source code, in order to run onto the main computer. 
-The process of creating punch-cards and managing them were a tedious process.
+The process of creating punch-cards & management was tedious.
 
 -A terminal was introduced to execute code onto a computer in simple text format.
 
