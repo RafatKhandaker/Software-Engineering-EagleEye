@@ -1,24 +1,28 @@
-# Software-Engineering-OVerView
+# Software-Engineering-OverView
 
-                           Rafat's Software Engineering Notes:
+        Rafat's Software Engineering Notes:
 
                            PROGRAMMING INTRODUCTION:
 
--The first computer used vaccuum tubes to be manually changed by hand, in order to store bits & data information.   <-- Process is long and tedious. 
+-The first computer used vaccuum tubes. manually changed by hand, in order to store bits & data information.
+<-- Process is long and tedious. 
 
--Punch cards were introduced to store source code, in order to run onto the main computer. The process of creating punch-cards and managing them were a tedious process.
+-Punch cards were introduced to store source code, in order to run onto the main computer. 
+The process of creating punch-cards and managing them were a tedious process.
 
 -A terminal was introduced to execute code onto a computer in simple text format.
 
-								BYTE BY BYTE
+			         BYTE BY BYTE
 
-(The most basic instruction in order to run code is to use a text editor and write each binary - Hex command to be executed by the processor 
-using -> address of the pin and the hex code you want to compile.  
+(The most basic instruction in order to run code is to use a text editor and write each binary 
+- Hex command to be executed by the processor using 
+-> address of the pin and the hex code you want to compile.  
 <-- highly, impractical)
 
-							  ASSEMBLY LANGUAGE
+			        ASSEMBLY LANGUAGE
 
-(Solution is to use an Assembly language, which is a more humanely readable language to write code, other than to write each process byte by byte.)
+(Solution is to use an Assembly language, which is a more humanely readable language to write code, other 
+than to write each process byte by byte.)
 	
 	{
 		ex: section .text
@@ -43,21 +47,29 @@ using -> address of the pin and the hex code you want to compile.
 
 	}	
 			
-There are different ASSEMBLY Language for different processors, collectively they are reffered as ASSEMBLY LANGUAGE.   Ex: microsoft uses source code written in:   		                                [ .asm  ]
+There are different ASSEMBLY Language for different processors, 
+collectively they are reffered as ASSEMBLY LANGUAGE.  
 
-<- A language written into text is known as a source code, this source code needs to be compiled into machine code by a programm called, an assembler ( byte by byte, before these instructions can be read into the processor)			
+Ex: microsoft uses source code written in:   [ .asm  ]
+
+<- A language written into text is known as a source code, this source code needs to be compiled 
+into machine code by a programm called, an assembler ( byte by byte, before these instructions can 
+be read into the processor)			
 
 
 An assembler converts a source file into an object file before it can be executable:
-                  assembler                   linker
+
+                assembler                   linker
 hello.asm (source)  --> hello.o (Object file) --> hello (executable)
 
           assembler    linker
+	  
 foo.asm -> foo.o  
-                 -->     baz
+                    -->     baz
 bar.asm -> bar.o 
 
-(This process minimize work when making code changes by executing source code into different threads, within the process)                 
+(This process minimize work when making code changes by executing source code into different threads, 
+within the process)                 
 
 
 	Dynamic Linking:  (linking during execution)
@@ -65,30 +77,39 @@ bar.asm -> bar.o
 		.so  (linux)
 		.dll ( windows)
 
-shared libraries. --> creating a shared library files allow programs to execute different threads from the same library at runtime, dynamically saving memory rather than to program a link into each sourcecode..static linking can produce large executable files and memory usage, loading large amount of memory into process.
+shared libraries. 
+
+--> creating a shared library files allow programs to execute different threads 
+from the same library at runtime. Dynamically Saving memory rather than to program a link into each 
+sourcecode. Static linking can produce large executable files and memory usage, loading large amount 
+of memory into process.
 
  ASSEMBLY LANGUAGE --> Low-Level programming : 
                                --ratio of source code to  instruction to : 1:1
                       (precise control & efficiency - programming byte by byte.)
 
- 						high-level :  
- 						        -- ratio of source code to instruction  1 to many
- 					  (expressiveness & portability)
+ 		 high-level :  
+  -- ratio of source code to instruction  1 to many
+     (expressiveness & portability)
 
- 					  [ allows you to execute more work per line of code, for ease and convenience, but takes away precision and control.
- 					   high level language, allows execution of multiple processors or OS or Platforms. rather than rewriting instructions for different processors or OS or platforms]
+[ allows you to execute more work per line of code, for ease and convenience, but takes away precision 
+and control. High level language, allows execution of multiple processors or OS or Platforms. rather 
+than rewriting instructions for different processors or OS or platforms]
 
-                       What is a Compiler? :
+            What is a Compiler? :
 
- The Conversion of high level programming language to low level programming language is done through a process called convulation, through a programm called a compiler.					   
+ The Conversion of high level programming language to low level programming language is done through 
+ a process called convulation, through a programm called a compiler.					   
 
       REASONS FOR COMBINING C with ASSEMBLY -> Efficiency plus optimization:
 
- Most modern OS systems are written in high level programming languages but some portions are written in Assembly for optimization.
+ Most modern OS systems are written in high level programming languages but some portions are written 
+ in Assembly for optimization.
 
 
- 								C CODE
-            compiler
+ 		          C CODE
+           
+	        compiler
  	bar.c    -->	    bar.o  (object file generated from c code)		
 
  	Interpreter: interpreters will convert source code into action
@@ -98,13 +119,18 @@ shared libraries. --> creating a shared library files allow programs to execute 
  	  Interpreter converts one language to another (interprets)
  	  Compiler converts source to machine
 
- 	  An interpreter will execute without an executable file, instead will simply run through the interpreter, reading set of instructions.
+ 	  An interpreter will execute without an executable file, instead will
+	  simply run through the interpreter, reading set of instructions.
 
- 	  all code running simultaneously through an interpreter will allow the interpreter to shape how to handle the instructions of the code:
+ 	  all code running simultaneously through an interpreter will allow the
+	  interpreter to shape how to handle the instructions of the code:
+
 
  	  foo 
-           (Interpreter) --->   (Action)
- 	  bar
+
+		(Interpreter) --->   (Action)
+ 	  
+	  bar
 
 
 SOURCE CODE :  introduce code reading, line by line. 
@@ -116,7 +142,8 @@ SOURCE CODE :  introduce code reading, line by line.
 
                			      JAVA
 
- Another way to use code is to run compilers and Interpretation together. Java does this through a virtual machine:
+ Another way to use code is to run compilers and Interpretation together. 
+ Java does this through a virtual machine:
  
               Compiler               virtual machine
   hello.java    -->    hello.class         -->      (ACTION)
@@ -124,15 +151,21 @@ SOURCE CODE :  introduce code reading, line by line.
 
   bytecode: intermediate code  <--
 
-  ( java introduces bytecode to be run and executed by an interpreter, which java calls: a virtual machine) 	      
+  ( java introduces bytecode to be run and executed by an interpreter, which java calls: a virtual
+  machine) 	      
       
-        - bytecode looks like machine code, however, bytecode cannot be interpreted by any actual processor. Instead, it uses an interpreter to read and execute the instructions line by line. 
+        - bytecode looks like machine code, however, bytecode cannot be interpreted by any actual 
+	processor. Instead, it uses an interpreter to read and execute the instructions line by line. 
 
-  Compile code typically runs faster than interpreted code because interpreters need to parse the source code. On one hand, Compilers are under tight pressure to run the executable, while interpreted code has all the time it needs to run each instruction line by line.      
+  Compile code typically runs faster than interpreted code because interpreters need to parse the 
+  source code. On one hand, Compilers are under tight pressure to run the executable, while interpreted 
+  code has all the time it needs to run each instruction line by line.      
 
-          - Java's Hybrid approach uses the advantages of convulation and interpretation to optimize a set of instructions and allowing it to run across different platforms.
+          - Java's Hybrid approach uses the advantages of convulation and interpretation to optimize
+	          a set of instructions and allowing it to run across different platforms.
 
-    VM with JIT (Just-in-time) --> implementation into a virtual machine to interpret what set of machine instructions to run and execute most of the code instead of interpreting each line.      
+    VM with JIT (Just-in-time) --> implementation into a virtual machine to interpret what set of machine 
+    instructions to run and execute most of the code instead of interpreting each line.      
 
 
 
@@ -163,18 +196,23 @@ Programm      Call Stack            ( Continous stack of chain of function calls
                              JAVASCRIPT & PYTHON
 
      Automatic memory management --> garbage collection.  
-     ( the programmer can create as many objects as they like and the interpreter will handle memory usage as needed, interpreter will also keep track of objects that are no longer reachable and give back to the OS system, heap space that are no longer needed. )      
+     ( the programmer can create as many objects as they like and the interpreter will handle 
+     memory usage as needed, interpreter will also keep track of objects that are no longer reachable 
+     and give back to the OS system, heap space that are no longer needed. )      
 
                                  Memory Leak:
 
-        ( A bug in which a the program allocates a chunk of heap memory but neglects to give the chunk back to the OS when it's no longer needed. Especially for long running processes, which need more and more heap as it is running.)                                      
+        ( A bug in which a the program allocates a chunk of heap memory but neglects to give the chunk 
+	back to the OS when it's no longer needed. Especially for long running processes, which need more 
+	and more heap as it is running.)                                      
 
          -> difficult bugs to track down. Can go undetected for months and years.
             leaks from one part of code looks same for all parts of code.
 
             javascript -> assign memory into array , store into local variable and forget about them.
 
-            injecting automatic memory management into c language will create too much overhead and take away precision to control heap space, defeating the purpose of using the C language.
+            injecting automatic memory management into c language will create too much overhead and take 
+	    away precision to control heap space, defeating the purpose of using the C language.
 
 
 Types of Mistakes:
@@ -187,10 +225,11 @@ Types of Mistakes:
 
       static typing:    - the types of variables. parameters and 	
       					  functions are declared.
-      					- the types of operands, arguments and assigned values are checked before execution.
+      					- the types of operands, arguments and assigned values are 
+					checked before execution.
       					- compiler will detect errors before running the code.                   
-      					( Rules of operations, independant objects, parameters and return functions.)
-      					(C & Java)
+      					( Rules of operations, independant objects, parameters and return 
+					functions.) (C & Java)
 
 
 Polymorphism: 
@@ -202,7 +241,8 @@ Polymorphism:
        weak typing: - allows the programmer to manipulate bytes of data in any
        				  arbitrary way desired.
 
-       				  (assembly language, modify data without appropriate to it's type, can produce garbage.)
+       				  (assembly language, modify data without appropriate to it's type, 
+				  can produce garbage.)
 
        strong typing  - allows the programmer to manipulate a piece of data only
        					with operations defined for that data's type.
@@ -229,8 +269,11 @@ Paradigms:
 			2. Semantics. -> meaning behind text
 			3. Libraries. -> body of pre-existing code for common functionality
 			4. Tools. -> 
-							(compiler, linker, interpreter, text editor, debugger
-							profiler ( optimize code), version control (repos github), IDE (integrated developer environment) full functionality )
+							(compiler, linker, interpreter, text editor, 
+							debugger
+							profiler ( optimize code), version control 
+							(repos github), IDE (integrated developer 
+							environment) full functionality )
     
  C Language:  
 
@@ -246,7 +289,8 @@ Paradigms:
 			return 0;
 		}	
 
-   code writtin in c can link with code written in assembly with little over-head. C is a high level language, compared to assembly. Linux Kernel is mostly written in C.
+   code writtin in c can link with code written in assembly with little over-head. C is a high 
+   level language, compared to assembly. Linux Kernel is mostly written in C.
 
  C++ Language: 
 
@@ -255,7 +299,8 @@ Paradigms:
    		- created in 1980s
    		- (almost) superset of C
    		- C with features.
-   		- C++ compiler can run C code.. large overlaps between C and C++ but not entirely true. Developed on their own, over the years.
+   		- C++ compiler can run C code.. large overlaps between C and C++ but not entirely 
+		true. Developed on their own, over the years.
 
    		#include <iostream>
 
@@ -315,7 +360,8 @@ Perl
 	often difficult to read 
 
 	Slow dynamic language to compile.  
-	as computers upgraded through time, the cost of running dynamic languages was enhanced and insignificant.
+	as computers upgraded through time, the cost of running dynamic languages was enhanced 
+	and insignificant.
 
 Python
 	- created in 1990s
@@ -367,7 +413,8 @@ Efficiency
 	OverHead: interpretation, automatic memory
 	management, dynamic typing.
 
-	Dynamic languages which implements ease of programming structure; require more over-head, dynamic typing and automatic memory management, usually compile slower.
+	Dynamic languages which implements ease of programming structure; 
+	require more over-head, dynamic typing and automatic memory management, usually compile slower.
 
 	Static Languages compiles faster.
 
@@ -379,7 +426,7 @@ Efficiency
 
   Over Head + Compile time --> Efficiency:
 
-  "a 12 hour plane ride.. doesnt add much time difference if you walk 40 min or take a 15 min cab.""
+  "a 12 hour plane ride.. doesnt add much time difference if you walk 40 min or take a 15 min cab."
 
 Portability
 
@@ -392,7 +439,8 @@ Portability
 
 	Library Code: make right calls, to run on different operating systems and processors.
 
-	if target platform has no programming device , (OS ) there is no program that can program the device.
+	if target platform has no programming device , (OS ) there is no program that can program
+	the device.
 
 	Windows filesystem similar to Unix but differs in logging capabilities
 	-> programs avoid areas where there is no overlap.
