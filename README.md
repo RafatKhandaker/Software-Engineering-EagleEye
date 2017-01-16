@@ -15,7 +15,7 @@ The process of creating punch-cards & management was tedious.
 			         BYTE BY BYTE
 
 (The most basic instruction in order to run code is to use a text editor and write each binary 
-- Hex command to be executed by the processor using 
+ into Hex command to be executed by the processor using 
 -> address of the pin and the hex code you want to compile.  
 <-- highly, impractical)
 
