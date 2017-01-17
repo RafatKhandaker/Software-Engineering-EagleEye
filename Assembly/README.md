@@ -189,4 +189,44 @@ add  :  01100100
       ommit -> (1) 01001011  (75)  
 
 
+       | Integers (Negative and positive) |
 
+like parity bit, leading bit determines sign of number
+if lead bit is 1, number is negative
+
+if leading bit is 0 , number is positive
+
+shifting right extends the sign
+shifting left can change the sign
+
+compliment reverses the sign
+
+    | Memory and the CPU |
+
+Random Access Memory (RAM)
+
+	address      
+    
+32 bit computer
+
+can address up to :  4,294,967,295 bits
+
+that is why 32 bit computers can only support a maximum
+of 4 GB of RAM.
+
+   |Memory and the CPU|
+
+Whole Register is 32 bits in size
+(Can be addressed as a whole) or within 16 bits
+                   | 16 bits  |
+
+whole 32bit is known as:
+ ESI                 16 bit is known as : SI
+ EDI                 DI
+ EBP                 BP
+ ESP                 SP
+
+E--> added or Extended . reference to 32 bits
+
+            | 8bit | | 8bit |
+---- left of  03 01 Memory & the CPU --- 3min in
