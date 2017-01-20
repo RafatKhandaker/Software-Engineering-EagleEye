@@ -1,0 +1,230 @@
+<!Doctype html> 
+<html>
+	<head></head>
+	
+		<body>
+				<script>
+// JavaScript Program for Rock Paper scissor based on Code Academy template // 
+var userChoice = prompt("Do you choose rock, paper or scissors?");
+
+var computerChoice = Math.random();
+if (computerChoice < 0.34) {
+	computerChoice = "rock";
+} else if(computerChoice <= 0.67) {
+	computerChoice = "paper";
+} else {
+	computerChoice = "scissors";
+} 
+console.log("Computer: " + computerChoice);
+
+var compare = function(choice1,choice2){
+    if (choice1 === choice2){
+        return("The result is a tie!");
+    }else if(choice1 === "paper"){
+        if(choice2 === "rock"){
+            return("Paper Wins!");
+        }else{
+            return("Scissors Wins!");
+        }
+    }else if(choice1 === "scissors"){
+        if(choice2 === "rock"){
+            return("Rock Wins!");
+        }else{
+            return("Scissors Win!"); 
+        }
+    }else{
+        if(choice2 === "scissors"){
+            return("Rock Wins!");
+        }else{
+            return("Paper Wins"); 
+        }
+	}
+}; 
+
+compare(userChoice,computerChoice); 
+
+				</script>
+				<script>
+						
+					// ROCK PAPER SCISSOR  by Rafat K //
+					alert("Let's Play Rock, Paper, scissors");
+
+					// function for userChoice //
+					var userChoice = function(userVal){
+						do{
+							var userVal = prompt("choose a value (rock, paper or scissors)");
+							return(userVal);
+						}while(userVal != ["rock","paper","scissors"];)
+					};
+
+					// function for compChoice //
+					var compChoice = function(randVal){
+						value = ((Math.random() * 10) -1);
+						// console.log(value);  <-- just to test random # //
+						if(value <= 3.00){
+							randVal = "rock";
+						}else if(value <= 6.00) {
+							randVal = "scissor";
+						}else{
+							randVal = "paper";
+						}
+    
+						alert(randVal);
+						return(randVal);
+					};
+
+					// function to return a case value //
+					var compare = function(choice1,choice2){
+						if(choice1 === "rock"){
+							if(choice2 === "scissor"){
+								return(1);
+							}else{
+								return(0);
+							}
+        
+						}else if(choice1 === "paper"){
+							if(choice2 === "rock"){
+								return(1);
+							}else{
+								return(0);
+							}
+		
+						}else if(choice1 === "scissors"){
+							if(choice2 === "rock"){
+								return(0);
+							}else{
+								return(1); 
+							}
+						}
+					};
+  
+
+					// do userChoice, compChoice while they are equal.. else do compare value //
+
+					do{
+						userChoice(); 
+						compChoice();
+						
+						if(userChoice === compChoice){
+							alert("Tie!");
+							alert("Please Retry !");
+    
+						}else{
+						
+							compare(userChoice,compChoice);
+		
+							switch(compare){   
+							
+								case 0: 
+									alert("You Lose!"); 
+								break;
+								
+								case 1:
+									alert ("You Win!");
+								break;
+							}
+						}
+		
+					}while(userChoice == compChoice)
+
+				</script>
+				
+				<script>
+<!-- The purpose of this javascript code is to return a value for oranges everytime the cost change. -->					
+					function orangeCost(totalCost){
+							var totalCost = price * 5 
+							
+							alert(totalCost);           <!-- open windows messsage -->
+							console.log(totalCost);     <!-- on log terminal -->
+							document.write(totalCost);  <!-- writes on html -->
+							return(totalCost);
+					};
+
+					var price = prompt("What is the price per orange?");
+
+					orangeCost(price);
+					
+				</script>
+				 
+				<script>
+<!-- Parameter is a number, and we do math with that parameter -->
+					var timesTwo = function(number) {
+						return number * 2;
+					};
+
+<!-- Call timesTwo here! -->
+					var newNumber = timesTwo(7);
+					
+					console.log(newNumber);
+				</script>
+				
+				<script>
+					function quarter(number){
+							return(number/4);
+					};
+
+					if (quarter(36) % 3 === 0 ) {
+						console.log("The statement is true");
+					} else {
+						console.log("The statement is false");
+					}
+				</script>
+				
+				<script>
+				
+					function perimeterBox(length,width){
+						var perimeter = (2*length + 2*width);
+						alert(perimeter);
+						return(perimeter);
+					};
+
+					var length = prompt("enter length of box");
+					var width = prompt("enter width of box");
+					perimeterBox(length,width);
+					
+				</script>
+				
+				<script>
+//in JS a variable declared inside a function is called a local variable. It can only be defined inside the function and nowhere else. A global variable is defined outside the function. You can define a global variable by ommiting the "var" //
+					var my_number = 7; 
+//using the var to call function stores a variable as a function for global recognition.//
+						var timesTwo = function(number) {
+						my_number = number * 2; //this has global scope//
+						console.log("Inside the function my_number is: ");
+						console.log(my_number);
+					}; 
+					
+					timesTwo(7);
+
+					console.log("Outside the function my_number is: ")
+					console.log(my_number);
+					var my_number = 7;
+
+					var timesTwo = function(number) {
+						var my_number = number * 2;  <!-- this is a local definition -->
+						console.log("Inside the function my_number is: ");
+						console.log(my_number);
+					}; 
+					timesTwo(7);
+
+					console.log("Outside the function my_number is: ")
+					console.log(my_number);
+					<script>
+						// Write your function below. 
+						// Don't forget to call your function!
+						var sleepCheck = function(numHours){
+						if (numHours >= 8){
+							return("You're getting plenty of sleep! Maybe even too much!");
+						}else{
+							return("Get some more shut eye!");
+						}
+					};
+
+						sleepCheck(10);
+						sleepCheck(5);
+						sleepCheck(8);
+					</script>
+
+		</body>
+		
+</html>

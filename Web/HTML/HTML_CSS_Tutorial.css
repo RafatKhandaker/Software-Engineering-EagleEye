@@ -1,0 +1,53 @@
+/* you can target each element of your HTML on CSS and edit them.  You can use inline css, on the html itself
+Target specific class with (.class .sidebar ** can be chained**) Tag elements like h1, body and parent will take over*/ 
+
+body{ 
+	background-color: #EEE;
+	font-family: Helvetica, Arial, sans-serif;  /* fonts and backup of fonts */
+}
+a {
+	text-decoration: none;
+	color: red;    /* set a ref links with red color */
+}
+
+h1 {	/* remove heading margin space from the headers  can use: h1, h2, h3{ */
+	margin: 0;
+}
+#container {
+	background-color: white;          /*color of container background*/
+	width: 800px;                     /* width of the container*/
+	margin-left: auto;
+	margin-right: auto;                /* margin auto right/ left will center the container */
+	
+}
+#header {
+	
+	background-color: #66CCFF;   /* html color code for nice customization */
+	color: white;
+	text-align: center;
+}
+#content {
+	padding: 10px 10px 10px 10px; /* padding for the content */
+}
+	#nav{
+		width: 180px;
+		float: left;   /* div separates into new line.. so float will place next to each other*/
+	}   
+		.selected{        /* the . is used to define class. if created anywhere else, you can use #nav .selected */
+			font-weight: bold;  /* for the selected tab, the letters will appear bold */
+		}
+	#nav ul {
+		list-style-type: none;   /* remove bullet point from original ul in html */
+		padding: 0;      /*removes spacing from the left */
+	}
+	#main{
+		width: 600px;
+		float: right;   /* place right of the content next to nav,at this point the floater is neglected*/
+	}
+#footer{
+	clear: both;  /* clear of any elements before displaying footer/ takes out of content */
+	padding: 10px; 
+	background-color: #999999;
+	color: white;
+	text-align: right;   /* move the copyright to the right */
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script>
+
+var text = "Hey, how are you doing? My name is Rebecca";
+var myName ="Rebecca";
+var hits = [];
+
+for(i=0; i <= text.length; i++){
+	for(j = 0; j <= (myName.length - 1); j++)
+		if(text[i + j] === myName[0 + j] ){
+			document.write(text[i+j]);
+		}
+}
+		</script>
+	</body>
+</html>

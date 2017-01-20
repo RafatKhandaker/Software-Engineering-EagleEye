@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript</title>
+	</head>
+	<body>
+		<script>
+			var myvariable = 5;    <!-- in javascript you do not need to define variable types: so it can be any value, bolean, string, num-->
+			var words = "This is";
+			var morewords = " a sentence";
+			var sentence = words + morewords; <!--concatinate numbers and words into sentences or value -->
+			document.write(sentence);  <!--  output value -->
+		</script>
+		<script>
+			var num1 = 5;
+			var num2 = 3;
+			var total = num1 + num2;  <!-- you can use any operation  ( -, % , * , / , ++,-- increment/decrement,) -->
+			document.write(total); 
+		</script>
+		<script>
+		    var alpha = "ABCDEFGH";  <!-- string values are an object, property has value and tells you something about object while method performs operation -->
+			var result = alpha.substring(3,5); <!-- similar to java..  object alpha .. method.. ( print between values 3,5 of string) -->
+			document.write(result);
+		</script>
+		<script>
+			var a = new Array(7);  <!-- create array with 7 items -->
+			a[0] = "cat";  <!-- define array -->
+			a[1] = "dog";
+			a[2] = 95;
+			a[6] = true;
+		</script>
+		<script>
+			<!-- or you can do array like -->
+			
+			var a = new Array("cat", "dog", 53, true);
+			document.write(a[1]);          
+		</script>		
+			<!-- even shorter array-->
+		<script>
+			var a = ["dog", "cat", 3, 5, false]; 
+			document.write(a[3]); 
+			
+		</script>
+			<!-- create function -->
+		<script>
+			 function sayHello() {
+				document.write("Hello");
+				}
+		</script>
+		<script>
+			<!-- create function with variable -->
+			
+			function sayHello2(who){
+				document.write("Hello," + who);
+			}
+		</script>
+		<script>
+		
+			sayHello2("Bob");
+			document.write("<br>");
+			sayHello2("Mary");
+		</script>
+		<script>
+		
+			var a = 12;       <!-- if statements -->
+			if (a != 10) {
+				alert(a);     <!-- alert is a method that creates dialog box --> 
+				}
+		</script>
+		<script>
+		
+			var b = "jake";
+			if ( b != "Jake") {
+			      alert(b);    
+			} else {
+					alert("The condition was false");
+					}
+		</script>
+		<script>
+			
+			for (i=0;i<5;i++){     <!-- for 0 to 4, incremented  print value .. of increment -->
+				document.write("This iteration" + i + "<br>");
+			} 
+		</script>
+		
+	</body>
+</html>

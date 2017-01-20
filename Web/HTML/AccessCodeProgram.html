@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavascriptProgramAccessCode</title>
+	</head>
+	<body>
+		<script>
+			
+<!-- This is a mini story line game simulation made with javascript. Check if the user is ready to play!-->
+
+var ready = prompt( "Are You Ready to play? (Yes or No)" );
+    
+if(ready === "yes"){
+    
+    confirm("Wonderful! Here we go");
+    
+    var age = prompt("What's your age?");
+        
+        if(age < 13){
+            
+            alert("Sorry! you are too young to play");
+            
+        } else {
+            console.log("___________________________________________________");
+            console.log("...................................................");
+            console.log("Welcome to Rumours !");
+            console.log("...................................................");
+            console.log("___________________________________________________");
+            console.log("Scenario 1");
+            console.log("___________________________________________________");
+            console.log("You are at a Justin Bieber concert, and you hear this lyric 'Lace my shoes off, start racing.'");
+            
+            console.log("______________________________________________");
+            
+            console.log("Suddenly, Bieber stops and says, 'Who wants to race me?'");
+            console.log("______________________________________________");
+    
+        
+             console.log("Do you want to race Bieber on stage?");
+
+            console.log("_________________________________________________");
+            
+        var userAnswer = prompt("Do you want race Bieber on stage? (yes or no)");
+
+        if(userAnswer === "yes"){
+    
+            console.log("You and Bieber start racing. It's neck and neck! You win by a shoelace!");
+            
+            console.log("___________________________________________________");
+        
+         }else{
+        
+            console.log("Oh no! Bieber shakes his head and sings 'I set a pace, so I can race without pacing.'");
+
+            console.log("___________________________________________________");
+         
+         }
+          var feedback = prompt("Please rate this game out of 10");
+        
+            if(feedback > 8){
+                console.log("Thank you! We should race at the next concert!");
+            }else{
+                console.log("I'll keep practiciing coding and racing.");
+            }
+        }
+
+}else{
+    
+    alert("Maybe Next time!"); 
+}
+}
+		</script>
+	</body>
+</html>
