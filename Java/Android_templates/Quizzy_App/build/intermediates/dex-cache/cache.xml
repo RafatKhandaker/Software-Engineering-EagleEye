@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Quizzy/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_549f4bdb49502219eb381359d3f468e0f250943a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Quizzy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Quizzy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_aefe00f1aff9d2a98a0d5f290acbd2c1ee001a73/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Quizzy/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Quizzy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_b04cbe1eaa2d54c1f75b41bb5b534926fbe824cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Quizzy/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Quizzy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_6518ef297ac9529f5731a075e2a248af4269039c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Quizzy/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8e79f8bbfedda53ee8a4330f201f1ba6d216ee4e">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Quizzy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_eeae8c4c0ac918c149fa5ec1c1e13cfe0ee71988/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Quizzy/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Quizzy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_d0036c97d7e7c7ae2fb89b88cb945fff32d1f3c4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Quizzy/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Quizzy/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_f9818824e331ac3aee09ffe21a4d8166ba3a6823/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Quizzy/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="62a1f16f5ac2bad0c76c2953d0d6d3bdbdf5755f">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Quizzy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a9ac9aeb541d225965f57280bb168cade61a76eb/classes.dex" />
+    </item>
+
+</items>

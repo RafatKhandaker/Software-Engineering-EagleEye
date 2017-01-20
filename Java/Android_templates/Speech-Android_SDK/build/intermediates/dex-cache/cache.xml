@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3360faa12544a07336ff804f38e6b871caa4af0e">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_da73f7f6efd024bf9db5eab85d2b4124ea50fd5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.0.0_ab6973b66d2720e7f6fa13a6c900db2005cf817e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8f9442dab7be8dd3745e02f14fc070fba2c0cfa5">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2a3784f34f2e5c07b6ba478033f92d6e4b240fd3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/speech-android-sdk/speech-android-wrapper/unspecified/jars/libs/java_websocket.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6bd42be616f8d4516f73eaa0a01a189295075e1a">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/transforms/dex/debug/folders/1000/8/java_websocket_71ce2d1112f794366cb686d3b509556425810345/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.0.0_611531eab65d853deb3b0642fe999ad8a2e9bed3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/speech-android-sdk/speech-android-wrapper/unspecified/jars/libs/jna.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="34342724f2af2d1180c0062d96a7f9846de5f465">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/transforms/dex/debug/folders/1000/8/jna_b1dcac5c0c5da0593a3db0b9e4b62ad4c8becb90/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.0.0_f305970d7507712713aebc876b00ef19b699a310/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.0.0_bf6b9559c0a783807f72ab56fdd19b574a4f6f55/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/speech-android-sdk/speech-android-wrapper/unspecified/jars/libs/commons-io-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4be1d7736d7a4a966682e109acddef2fc0554c6f">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/transforms/dex/debug/folders/1000/8/commons-io-2.4_3f487d88bf59343d4286f13b774dd79beca17427/classes.dex" />
+    </item>
+
+</items>

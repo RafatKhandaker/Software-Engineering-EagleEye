@@ -1,0 +1,310 @@
+[
+    {
+        "outputFile": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 46,
+                    "endOffset": 97
+                },
+                "from": {
+                    "file": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/src/main/res/values-v14/colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 46,
+                        "endOffset": 97
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 102,
+                    "endColumn": 48,
+                    "endOffset": 146
+                },
+                "from": {
+                    "file": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/src/main/res/values-v14/colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 102,
+                        "endColumn": 48,
+                        "endOffset": 146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 151,
+                    "endLine": 8,
+                    "endColumn": 12,
+                    "endOffset": 493
+                },
+                "from": {
+                    "file": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/src/main/res/values-v14/styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 220,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 498,
+                    "endLine": 13,
+                    "endColumn": 12,
+                    "endOffset": 769
+                },
+                "from": {
+                    "file": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 286,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 557
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 774,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 1283
+                },
+                "from": {
+                    "file": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 788,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 1297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1288,
+                    "endLine": 27,
+                    "endColumn": 12,
+                    "endOffset": 1811
+                },
+                "from": {
+                    "file": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1302,
+                        "endLine": 24,
+                        "endColumn": 12,
+                        "endOffset": 1825
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1816,
+                    "endLine": 34,
+                    "endColumn": 12,
+                    "endOffset": 2337
+                },
+                "from": {
+                    "file": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1830,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 2351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2342,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 2877
+                },
+                "from": {
+                    "file": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2356,
+                        "endLine": 38,
+                        "endColumn": 12,
+                        "endOffset": 2891
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2882,
+                    "endColumn": 78,
+                    "endOffset": 2956
+                },
+                "from": {
+                    "file": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2896,
+                        "endColumn": 78,
+                        "endOffset": 2970
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2961,
+                    "endColumn": 92,
+                    "endOffset": 3049
+                },
+                "from": {
+                    "file": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2975,
+                        "endColumn": 92,
+                        "endOffset": 3063
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3054,
+                    "endColumn": 90,
+                    "endOffset": 3140
+                },
+                "from": {
+                    "file": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 3068,
+                        "endColumn": 90,
+                        "endOffset": 3154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3145,
+                    "endColumn": 104,
+                    "endOffset": 3245
+                },
+                "from": {
+                    "file": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v14/values.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 3159,
+                        "endColumn": 104,
+                        "endOffset": 3259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3250,
+                    "endLine": 48,
+                    "endColumn": 12,
+                    "endOffset": 3406
+                },
+                "from": {
+                    "file": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/src/main/res/values-v14/styles.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 568,
+                        "endLine": 15,
+                        "endColumn": 12,
+                        "endOffset": 724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3411,
+                    "endLine": 51,
+                    "endColumn": 12,
+                    "endOffset": 3582
+                },
+                "from": {
+                    "file": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/src/main/res/values-v14/styles.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 918,
+                        "endLine": 23,
+                        "endColumn": 12,
+                        "endOffset": 1089
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3587,
+                    "endLine": 54,
+                    "endColumn": 12,
+                    "endOffset": 3769
+                },
+                "from": {
+                    "file": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/src/main/res/values-v14/styles.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 730,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 912
+                    }
+                }
+            }
+        ]
+    }
+]

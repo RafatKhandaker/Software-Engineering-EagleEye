@@ -1,0 +1,7 @@
+#Fri Dec 09 22:43:31 EST 2016
+base.0=/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2a3784f34f2e5c07b6ba478033f92d6e4b240fd3
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_da73f7f6efd024bf9db5eab85d2b4124ea50fd5f/classes.dex
+base.1=/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_da73f7f6efd024bf9db5eab85d2b4124ea50fd5f
+file.0=/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2a3784f34f2e5c07b6ba478033f92d6e4b240fd3/classes.dex

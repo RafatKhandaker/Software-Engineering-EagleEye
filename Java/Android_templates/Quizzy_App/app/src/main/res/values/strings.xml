@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quizzy</string>
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="prev_button">Prev</string>
+    <string name="restart_quiz">Restart</string>
+    <string name="next_button">Next</string>
+    <string name="correct_toast">Correct!</string>
+
+    <!--questions-->
+    <string name="question_static">Static variables are associated with each instance of the object</string>
+    <string name="question_private_class">A private member is only accessible within the same class as it is declared</string>
+    <string name="question_method">A single method call can return multiple types in Java</string>
+    <string name="question_method_2">Calling a method is the same as defining it</string>
+    <string name="save_score">Save Score</string>
+    <string name="enter_name">Enter your name below to start taking the quiz</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+
+
+</resources>

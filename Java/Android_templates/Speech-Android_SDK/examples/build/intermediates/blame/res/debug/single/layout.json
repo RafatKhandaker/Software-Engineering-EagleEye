@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/tab_tts.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/src/main/res/layout/tab_tts.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/activity_tab_text.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/src/main/res/layout/activity_tab_text.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/tab_stt.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/src/main/res/layout/tab_stt.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/RedDragon/Desktop/localAppTest/speech-android-sdk/examples/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_list_menu_item_checkbox.xml"
+    }
+]

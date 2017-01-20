@@ -1,0 +1,24 @@
+<resources>
+  <string name="app_name">Github Client</string>
+  <string name="label_owner">Owner:</string>
+  <string name="label_repository">Repo:</string>
+  <string name="hint_owner">Owner (e.g., accesscode-2-1)</string>
+  <string name="hint_repository">Repo (e.g., unit-2)</string>
+  <string name="text_no_contributors">No contributors found!</string>
+  <string name="preview_login">Login</string>
+  <string name="preview_contributions">0 contributions</string>
+  <string name="error_loading_contributors">Failed to load contributors, try again later!\nMessage: %s</string>
+  <string name="error_loading_repositories">Failed to load repositories, try again later!\nMessage: %s</string>
+  <string name="text_no_repositories">No repositories found!</string>
+  <plurals name="num_contributions">
+    <!--
+         As a developer, you should always supply "one" and "other"
+         strings. Your translators will know which strings are actually
+         needed for their language. Always include %d in "one" because
+         translators will need to use %d for languages where "one"
+         doesn't mean 1 (as explained above).
+      -->
+    <item quantity="one">%d contribution</item>
+    <item quantity="other">%d contributions</item>
+  </plurals>
+</resources>

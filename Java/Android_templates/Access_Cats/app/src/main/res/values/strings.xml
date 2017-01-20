@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Access Cats</string>
+    <string name="label_add_cat">Add cat</string>
+    <string name="enter_cat_name">Enter cat name</string>
+</resources>

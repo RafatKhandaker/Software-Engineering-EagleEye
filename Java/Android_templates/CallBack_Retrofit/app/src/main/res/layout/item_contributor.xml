@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/item_contributor_padding"
+    >
+
+  <ImageView
+      android:id="@+id/photo"
+      android:layout_width="@dimen/list_detail_image_size"
+      android:layout_height="@dimen/list_detail_image_size"
+      android:adjustViewBounds="true"
+      android:scaleType="centerInside"
+      android:src="@mipmap/ic_launcher"
+      />
+
+  <LinearLayout
+      android:layout_width="0dp"
+      android:layout_height="@dimen/list_detail_image_size"
+      android:layout_weight="1"
+      android:orientation="vertical"
+      >
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="@dimen/layout_horizontal_margin"
+        android:text="@string/preview_login"
+        android:textSize="@dimen/login_text_size"
+        />
+
+    <TextView
+        android:id="@+id/contribution_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/layout_horizontal_margin"
+        android:text="@string/preview_contributions"
+        android:textSize="@dimen/contributions_text_size"
+        />
+
+  </LinearLayout>
+
+</LinearLayout>

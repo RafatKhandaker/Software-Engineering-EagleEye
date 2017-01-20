@@ -1,0 +1,8 @@
+<resources>
+  <dimen name="layout_horizontal_margin">16dp</dimen>
+  <dimen name="list_detail_image_size">48dp</dimen>
+  <dimen name="item_contributor_padding">8dp</dimen>
+  <dimen name="login_text_size">18sp</dimen>
+  <dimen name="contributions_text_size">12sp</dimen>
+  <dimen name="profile_image_size">84dp</dimen>
+</resources>

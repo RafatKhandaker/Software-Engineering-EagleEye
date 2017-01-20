@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/restart_quiz_action"
+        android:title="@string/restart_quiz"
+        android:icon="@android:drawable/arrow_up_float"/>
+
+
+    <item android:id="@+id/save_score"
+        android:title="@string/save_score"
+        android:icon="@android:drawable/arrow_up_float"/>
+
+
+</menu>

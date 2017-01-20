@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Memester</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Rename these-->
+    <string name="meme_archer">Archer Meme</string>
+    <string name="meme_leo">Leo Meme</string>
+    <string name="meme_purr">Purr Meme</string>
+    <string name="meme_putin">Putin Meme</string>
+</resources>
