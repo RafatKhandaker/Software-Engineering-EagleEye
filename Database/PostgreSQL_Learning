@@ -1,0 +1,96 @@
+---------------------------Create database---------------------------
+## POSTGRESQL ##
+
+create database test;  
+
+\l   -> list database
+\c   -> connect database or select database
+\c test -> connect to test database
+
+\c postgres   -> connect to postgresql
+
+drop database test;  -> 
+\q  -> quit database
+
+## pgAdmin  -- > Graphical user interface
+
+----------------------Create Tables------------------------------
+\c test
+
+create table company(id int primary key not null , name text not null, age int not null , address char(50) , salary real);
+
+CREATE TABLE
+
+\d  list directory
+
+create table department(id int primary key not null, dept char(50) not null, emp_id int not null);
+
+CREATE TABLE
+
+\d 
+
+---------------------------Insert Data-------------------------------
+insert into table("data type")values("insert values")
+
+///insert data in order///
+
+example:
+insert into company values(4,'priya',24,'Delhi',30000);
+
+select * from company;
+
+insert more than one query
+example:
+insert into company values(1,'sunil',12,'mumbai',30000),(2,'Heena',16,'mumbai',30000);
+
+select * from company;
+
+\d company  --> show company table data 
+
+select id, name from company    --> selects data types id and name from  
+                                    company table
+
+select * from company                                    
+
+select 2+3;  --> column 5 ( row 1)
+
+select 2*3;   -- column 6 row 1
+
+select 10/5
+
+\! cls --> clear screen
+
+select 14%4;  --> mod operator will give us 2
+
+select 2^3;   --> value 8 row 1
+
+select 5!    -- > factorial .. 
+
+select |/25;   --> square root #
+
+select ||/27  --> cube root #
+
+select * from company;   --> 
+
+select name from company where age = 34;  --> select data from age  = 34
+
+select name from company where age!=34;   --> select data from age not 												 eqaul to 34
+select * from company where age>34; 
+
+select * from company where age>33 and salary>2000;
+
+select * from company where age>33 or salary>2000;
+
+select * from company where salary is null;   --> select values in 	 													  database where salary 												  is null
+select * from company where name is like 'P%';    --> select database 														where value in table 													"name" start with P d
+select * from company where name is like '%a%';  --> select data where 														                         name has an "a" values
+
+select * from company wher name is like '%a'   --> select from data where name ends with a
+
+select * from company where age in('20','34,'40); --> 
+
+						[--> select data where age has values  such as ^ ]
+
+select * from company where age between 23 and 34;							
+
+---------------left off video 11------
