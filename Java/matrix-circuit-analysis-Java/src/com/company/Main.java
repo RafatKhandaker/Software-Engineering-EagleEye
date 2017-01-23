@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-
+// TEST JAVA, NOT COMPLETE !!!   MORE COMPLEX THAN IT LOOKS:  
 public class Main {
 
 
