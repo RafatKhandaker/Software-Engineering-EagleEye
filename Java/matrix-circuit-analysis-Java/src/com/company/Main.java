@@ -2,6 +2,9 @@ package com.company;
 
 import java.util.Scanner;
 
+/*  Not finished... Brain Teaser !  ...  needs more work.. currently , I am printing the diagonal values of the determinant
+                   will continue working
+*/
 
 public class Main {
 
