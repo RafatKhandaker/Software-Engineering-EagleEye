@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-// TEST JAVA, NOT COMPLETE !!!   MORE COMPLEX THAN IT LOOKS:  
+
 public class Main {
 
 
@@ -24,41 +24,48 @@ public class Main {
         System.out.println("How many current loops are in this circuit? ");
         currentLoops = scanner.nextInt();
 
-        int[] current = new int[]{currentLoops};
+        int[] current = new int[currentLoops];
 
-        for(int i = 0; i < currentLoops; i++){
-            System.out.println("What is the value of current " +(i+1) +"? : ");
-            current[i] = scanner.nextInt();
-        }
 //------------------------------------Solve Resistor-------------------------------------------------------------------
 
         System.out.println("How many total resistors are in this circuit? ");
         totalResistors = scanner.nextInt();
 
-        int resValHolder;
+
         int[][] resistArrVal = new int[currentLoops][currentLoops];
+        int[] resistArrHold;
+
 
         for(int i = 0; i < currentLoops; i++) {
+            resistArrHold = new int[currentLoops];
             System.out.println("Number of Resistors in current mesh " +(i+1) +"? :");
             numResistors = scanner.nextInt();
-            resValHolder = 0;
+
+            System.out.println("What is the value of Resistors in current mesh " +(i+1) +": ");
 
             for (int y = 0; y < numResistors; y++) {
-                System.out.println("In Current Mesh " + i + ":");
-                System.out.println("What is the value of Resistor" + (y + 1) + "? :");
-                resValHolder += scanner.nextInt();
-
-                if(i == y) {
-                    resistArrVal[i] = new int[resValHolder];
-                }else{
-                    resValHolder = -resValHolder;
-                    resistArrVal[i] = new int[resValHolder];
-                    resValHolder = -resValHolder;
-                }
-
-
+                resistArrHold[y] = scanner.nextInt();
             }
+            resistArrVal[i] = resistArrHold;
+
         }
+
+//-------------------------------check diagonal R values of the determinant------------------------------------------------
+        System.out.println("\n Testing the diagonal Resistor values of the Determinant \n :" );
+
+        int check = 0;
+          while(check < currentLoops){
+            for(int y = 0; y < currentLoops ; y++){
+                System.out.print(resistArrVal[check][y] +" ");
+            }
+            System.out.print("\n");
+            check++;
+          }
+
+
+
+
+
 
 //------------------------------------Solve Voltages -------------------------------------------------------------------
         for(int i = 0; i < currentLoops; i++){
