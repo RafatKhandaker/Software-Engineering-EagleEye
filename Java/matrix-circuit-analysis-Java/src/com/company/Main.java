@@ -9,17 +9,17 @@ import java.util.*;
 
 
 public class Main {
+
    private static Map<String,Integer> mapResistor = new HashMap<>();
    private static int currentLoops;
    private static int[][] matrixR;
-    private static Map<String, Integer> voltageMap;
+   private static Map<String, Integer> voltageMap;
 
 
     public static void main(String[] args) {
 
         int numVoltage;
         int totalResistors;
-        int resInc = 0;
 
 
         Scanner scanner = new Scanner(System.in);
@@ -98,19 +98,25 @@ public class Main {
             int voltVal = 0;
             for(int y = 0; y < numVoltage; y++){
                 System.out.println("what is the value of Voltage source" +(y+1) +" in mesh" +(i+1) +": " +
-                        "(keep convention +/-");
+                        "(keep convention +/-)");
                 voltVal += scanner.nextInt();
                 voltageMap.put("V" +(i+1), voltVal);
             }
         }
 
-        testPrintMatrixVal();
+        testPrintMatrixEquation(matrixR, currentLoops, currentLoops);
+
+        System.out.print("\n Test printing Determinant Value after 3x3 to 3x5 conversion:\n");
+        testPrintMatrixValue(
+                setDeterminant(matrixR),currentLoops,(currentLoops + currentLoops-1));
+
+
 
     }
 
     //-----------------------------------------Test matrix Value -------------------------------------------
 
-    private static void testPrintMatrixVal(){
+    private static void testPrintMatrixEquation(int[][] matrix, int loop1, int loop2 ){
         int check = 0;
         int count = 1;
 
@@ -118,10 +124,10 @@ public class Main {
 
         System.out.println("Resistor | Current | Voltage \n");
 
-        while(check < currentLoops){
-            for(int y = 0; y < currentLoops ; y++){
-                System.out.print(matrixR[check][y] +" ");
-                if(y+1 == currentLoops){
+        while(check < loop1){
+            for(int y = 0; y < loop2 ; y++){
+                System.out.print(matrix[check][y] +" ");
+                if(y+1 == loop2){
                     System.out.print("      I" +count +"      " + voltageMap.get("V"+count));
                     count++;
                 }
@@ -130,21 +136,40 @@ public class Main {
             check++;
         }
 
-        System.out.print("\n \n \n");
+        System.out.print("\n");
     }
 
-    //  check boolean test
-    //            check = 0;
+    private static void testPrintMatrixValue(int[][] matrix, int loop1, int loop2 ){
+        int check = 0;
 
-//        while(check < currentLoops){
-//            for(int y = 0; y < totalResistors ; y++){
-//                System.out.print(checkResistDim[check][y] +" ");
-//
-//            }
-//            System.out.print("\n");
-//            check++;
-//        }
-//
-//        System.out.println("\n \n");
+        while(check < loop1){
+            for(int y = 0; y < loop2 ; y++){
+                System.out.print(matrix[check][y] +" ");
+
+            }
+            System.out.print("\n");
+            check++;
+        }
+
+        System.out.print("\n");
+    }
+
+    private static int[][] setDeterminant(int[][] matrix){
+        int n = currentLoops + (currentLoops -1);
+        int[][] newMatrix = new int[currentLoops][n];
+
+        for(int i = 0; i < currentLoops; i++){
+            for(int y = 0; y < n ; y++){
+                if(y < currentLoops) {
+                    newMatrix[i][y] = matrix[i][y];
+                }else{
+                    int x = (y+1) % (currentLoops);
+                    newMatrix[i][y] = matrix[i][x-1];
+                }
+            }
+        }
+        return newMatrix;
+    }
+
 
 }
