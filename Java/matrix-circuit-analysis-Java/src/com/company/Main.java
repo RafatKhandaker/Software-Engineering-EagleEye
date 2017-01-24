@@ -4,7 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-//  PASS TEST TO CREATE THE CORRECT MATRIX ON DIAGONAL  .. still in progress
+// Testing the correct matrix to print.. pass ... still working on this problem.  
+/** PS: No calculator was made to solve determinants and matricies **/
+
 public class Main {
    private static Map<String,Integer> mapResistor = new HashMap<>();
 
@@ -65,15 +67,22 @@ public class Main {
 
  //-----------------------------------------Test matrix Value -------------------------------------------
             int check = 0;
+            int count = 1;
             while(check < currentLoops){
+                System.out.println("Resistor | Current | Voltage \n");
                 for(int y = 0; y < currentLoops ; y++){
                     System.out.print(matrixI[check][y] +" ");
+                    if(y+1 == currentLoops){
+                        System.out.print(" I" +count +"  V" +count);
+                        count++;
+                    }
                 }
                 System.out.print("\n");
                 check++;
             }
 
         }
+
 //------------------------------------Solve Voltages -------------------------------------------------------------------
         for(int i = 0; i < currentLoops; i++){
             System.out.println("Number of Voltage sources inside current mesh " +i +"? :");
