@@ -1,12 +1,12 @@
 package com.company;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 
-// Testing the correct matrix to print.. pass ... still working on this problem.  
-/** PS: No calculator was made to solve determinants and matricies **/
+/** Testing the correct matrix to print.. pass ... still working on this problem.
+ * PS: No calculator was made to solve determinants and matricies  50% Complete .. all the matrix are correct
+  Proves the problem can be done
+ **/
 
 public class Main {
    private static Map<String,Integer> mapResistor = new HashMap<>();
@@ -43,28 +43,48 @@ public class Main {
 
             }
 
-        int[][] matrixI = new int[currentLoops][currentLoops];
-        int inMatrixI;
-        for(int i = 0; i < currentLoops ;i++){
-            System.out.println("Which resistors are in Current loop " +(i+1) +"? ");
-            inMatrixI = 0;
-            for(int y = 0; y < totalResistors ;y++){
-                System.out.println("R" +(y+1) +"? (y or n)");
+        int[][] matrixR = new int[currentLoops][currentLoops];
+        int inMatrixR;
 
-                switch(scanner.next()){
+        boolean[][] checkResistDim = new boolean[currentLoops][totalResistors];
+        boolean[] addResistDim = new boolean[totalResistors];
+
+        for(int i = 0; i < currentLoops ;i++) {
+            System.out.println("Which resistors are in Current loop " + (i + 1) + "? ");
+            inMatrixR = 0;
+            for (int y = 0; y < totalResistors; y++) {
+                System.out.println("R" + (y + 1) + "? (y or n)");
+
+                switch (scanner.next()) {
                     case "y":
-                         inMatrixI += mapResistor.get("R"+(y+1));
+                        inMatrixR += mapResistor.get("R" + (y + 1));
+                        addResistDim[y] = true;
                         break;
                     case "n":
+                        addResistDim[y] = false;
                         break;
                     default:
                         y--;
                         break;
                 }
-
-                matrixI[i][i] = inMatrixI;
-
+                matrixR[i][i] = inMatrixR;
             }
+            checkResistDim[i] = addResistDim;
+            addResistDim = new boolean[totalResistors];
+
+        }
+
+        for(int i = 0; i < currentLoops; i++){
+            for(int y = 0; y < currentLoops; y++){
+                if(i != y){
+                    for(int z = 0; z < totalResistors; z++){
+                        if(checkResistDim[i][z] == checkResistDim[y][z]){
+                            matrixR[i][y] -= mapResistor.get("R"+(z+1));
+                        }
+                    }
+                }
+            }
+        }
 
  //-----------------------------------------Test matrix Value -------------------------------------------
             int check = 0;
@@ -73,7 +93,7 @@ public class Main {
 
             while(check < currentLoops){
                 for(int y = 0; y < currentLoops ; y++){
-                    System.out.print(matrixI[check][y] +" ");
+                    System.out.print(matrixR[check][y] +" ");
                     if(y+1 == currentLoops){
                         System.out.print(" I" +count +"  V" +count);
                         count++;
@@ -83,7 +103,30 @@ public class Main {
                 check++;
             }
 
-        }
+        System.out.print("\n \n \n");
+
+            check = 0;
+
+//        while(check < currentLoops){
+//            for(int y = 0; y < totalResistors ; y++){
+//                System.out.print(checkResistDim[check][y] +" ");
+//
+//            }
+//            System.out.print("\n");
+//            check++;
+//        }
+//
+//        System.out.println("\n \n");
+
+
+
+
+
+
+
+
+
+
 
 //------------------------------------Solve Voltages -------------------------------------------------------------------
         for(int i = 0; i < currentLoops; i++){
