@@ -50,7 +50,7 @@ public class Main {
 
                 switch(scanner.next()){
                     case "y":
-                         inMatrixI += mapResistor.get("R"+y);
+                         inMatrixI += mapResistor.get("R"+(y+1));
                         break;
                     case "n":
                         break;
@@ -72,6 +72,7 @@ public class Main {
                 System.out.print("\n");
                 check++;
             }
+
         }
 
 //------------------------------------Solve Voltages -------------------------------------------------------------------
