@@ -1,12 +1,12 @@
 package com.company;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
-/*  Not finished... Brain Teaser !  ...  needs more work.. currently , I am printing the diagonal values of the determinant
-                   will continue working
-*/
 
 public class Main {
+   private static Map<String,Integer> mapResistor = new HashMap<>();
 
 
     public static void main(String[] args) {
@@ -34,41 +34,46 @@ public class Main {
         System.out.println("How many total resistors are in this circuit? ");
         totalResistors = scanner.nextInt();
 
+            for(int i = 0; i < totalResistors; i++){
+                System.out.println("What is the value of R" +(i+1) +"?: ");
+                mapResistor.put("R"+(i+1),scanner.nextInt());
 
-        int[][] resistArrVal = new int[currentLoops][currentLoops];
-        int[] resistArrHold;
-
-
-        for(int i = 0; i < currentLoops; i++) {
-            resistArrHold = new int[currentLoops];
-            System.out.println("Number of Resistors in current mesh " +(i+1) +"? :");
-            numResistors = scanner.nextInt();
-
-            System.out.println("What is the value of Resistors in current mesh " +(i+1) +": ");
-
-            for (int y = 0; y < numResistors; y++) {
-                resistArrHold[y] = scanner.nextInt();
             }
-            resistArrVal[i] = resistArrHold;
+
+        int[][] matrixI = new int[currentLoops][];
+        int inMatrixI;
+        for(int i = 0; i < currentLoops ;i++){
+            System.out.println("Which resistors are in Current loop" +i +"? ");
+            inMatrixI = 0;
+            for(int y = 0; y < totalResistors ;y++){
+                System.out.println("R" +(y+1) +"? (y or n)");
+
+                switch(scanner.next()){
+                    case "y":
+                         inMatrixI += mapResistor.get("R"+y);
+                        break;
+                    case "n":
+                        break;
+                    default:
+                        y--;
+                        break;
+                }
+
+                matrixI[i][i] = inMatrixI;
+
+            }
+
+ //-----------------------------------------Test matrix Value -------------------------------------------
+            int check = 0;
+            while(check < currentLoops){
+                for(int y = 0; y < currentLoops ; y++){
+                    System.out.print(matrixI[check][y] +" ");
+                }
+                System.out.print("\n");
+                check++;
+            }
 
         }
-
-//-------------------------------check diagonal R values of the determinant------------------------------------------------
-        System.out.println("\n Testing the diagonal Resistor values of the Determinant \n :" );
-
-        int check = 0;
-          while(check < currentLoops){
-            for(int y = 0; y < currentLoops ; y++){
-                System.out.print(resistArrVal[check][y] +" ");
-            }
-            System.out.print("\n");
-            check++;
-          }
-
-
-
-
-
 
 //------------------------------------Solve Voltages -------------------------------------------------------------------
         for(int i = 0; i < currentLoops; i++){
@@ -82,4 +87,5 @@ public class Main {
             }
         }
     }
+
 }
