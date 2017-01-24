@@ -5,8 +5,8 @@ import java.util.*;
 
 /** Testing the correct matrix to print.. pass ... still working on this problem.
  * PS: No calculator was made to solve determinants and matricies  50% Complete .. all the matrix are correct
-  Proves the problem can be done
- **/
+ Proves the problem can be done **/
+
 
 public class Main {
    private static Map<String,Integer> mapResistor = new HashMap<>();
@@ -89,7 +89,10 @@ public class Main {
  //-----------------------------------------Test matrix Value -------------------------------------------
             int check = 0;
             int count = 1;
-            System.out.println("Resistor | Current | Voltage \n");
+
+        System.out.println("\n\n Printing the Current Matrix Equation: \n");
+
+        System.out.println("Resistor | Current | Voltage \n");
 
             while(check < currentLoops){
                 for(int y = 0; y < currentLoops ; y++){
@@ -117,16 +120,6 @@ public class Main {
 //        }
 //
 //        System.out.println("\n \n");
-
-
-
-
-
-
-
-
-
-
 
 //------------------------------------Solve Voltages -------------------------------------------------------------------
         for(int i = 0; i < currentLoops; i++){
