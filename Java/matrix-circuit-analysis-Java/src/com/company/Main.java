@@ -11,13 +11,15 @@ import java.util.*;
 
  **/
 
-
 public class Main {
 
    private static Map<String,Integer> mapResistor = new HashMap<>();
    private static int currentLoops;
    private static int[][] matrixR;
    private static Map<String, Integer> voltageMap;
+
+    private static int countSize = 0;  //
+
 
 
     public static void main(String[] args) {
@@ -108,6 +110,8 @@ public class Main {
             }
         }
 
+//-------------------------------Testing Determinant Values----------------------------------------------------------
+
         testPrintMatrixEquation(matrixR, currentLoops, currentLoops);
 
         System.out.print("\n Test printing Determinant Value after 3x3 to 3x5 conversion:\n");
@@ -116,9 +120,34 @@ public class Main {
 
         System.out.print("\n Test print Determinant conversion from 3x3 resistor to voltage replacement: \n");
 
-        testPrintMatrixValue(
-                convert3x3Determinant(matrixR,0),currentLoops, currentLoops
-        );
+        System.out.print("Determinant is equal to diagonal of positive hash minus negative hash");
+
+        System.out.println("Test Printing solve positive diagonal of determinant: ");
+
+        System.out.println(multPosDiagonal(set3x5Determinant(matrixR), currentLoops, 0));
+        countSize = 0;     // reset countSize
+        System.out.println(multPosDiagonal(set3x5Determinant(matrixR), currentLoops, 1));
+        countSize = 0;
+        System.out.println(multPosDiagonal(set3x5Determinant(matrixR), currentLoops, 2));
+
+        /** Negative hash of determinant calculations is incorrect values at the moment**/
+    //-------------------------------negative determinant-------------------------------------------
+
+//        System.out.println("Test Printing solve negative diagonal of determinant: ");
+//
+//        System.out.println(multPosDiagonal(set3x5Determinant(matrixR), currentLoops, 0));
+//        countSize = 0;     // reset countSize
+//        System.out.println(multPosDiagonal(set3x5Determinant(matrixR), currentLoops, 1));
+//        countSize = 0;
+//        System.out.println(multPosDiagonal(set3x5Determinant(matrixR), currentLoops, 2));
+
+      //--------------------------------Determinant-----------------------------------------------
+
+//        System.out.println(" The Determinant is " +set3x5Determinant(matrixR));
+
+        //        testPrintMatrixValue(
+//                convert3x3Determinant(matrixR,0),currentLoops, currentLoops
+//        );
 
     }
 
@@ -180,15 +209,53 @@ public class Main {
     }
 
     private static int[][] convert3x3Determinant(int[][] matrix,int column){
+        int[][] newMatrix = matrix;
         for(int i = 0; i < currentLoops ; i++){
             for(int y = 0; y < currentLoops; y++){
                 if(y == column){
-                    matrix[i][y] = voltageMap.get("V"+(i+1));
+                    newMatrix[i][y] = voltageMap.get("V"+(i+1));
                 }
             }
         }
-        return matrix;
+        return newMatrix;
     }
 
+    private static int multPosDiagonal(int[][] matrix, int loopSize, int shift){
+        int x = countSize;
+        if(countSize == loopSize){ return 1; }
+        countSize++;
+        return
+            (matrix[x][x+shift] * multPosDiagonal(matrix, loopSize, shift));
+    }
+    private static int convertSize = currentLoops + (currentLoops--);
+
+    private static int multNegDiagonal(int[][] matrix, int loopSize, int shift){
+        int x = countSize;
+        if(loopSize < convertSize ){ return 1; }
+        countSize++;
+        return matrix[x][(loopSize-1) +shift] * multNegDiagonal(matrix,loopSize-1, shift);
+    }
+
+    private static int solvDeterminant(int[][] matrix){
+        int result1 = 0;
+        int result2 = 0;
+        for(int i = 0; i < currentLoops; i++){
+            if(true) {
+                int x = multPosDiagonal(set3x5Determinant(matrix), currentLoops, i);
+                int y = multNegDiagonal(set3x5Determinant(matrix), currentLoops, i);
+
+                result1 += x;
+                result2 += y;
+            }
+            countSize = 0;
+        }
+
+
+        return result1 - result2;
+    }
+
+
+
+// 00x11x22 + 01x12x23 + 02x13x24
 
 }
