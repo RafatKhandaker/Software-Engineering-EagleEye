@@ -112,9 +112,13 @@ public class Main {
 
         System.out.print("\n Test printing Determinant Value after 3x3 to 3x5 conversion:\n");
         testPrintMatrixValue(
-                setDeterminant(matrixR),currentLoops,(currentLoops + currentLoops-1));
+                set3x5Determinant(matrixR),currentLoops,(currentLoops + currentLoops-1));
 
+        System.out.print("\n Test print Determinant conversion from 3x3 resistor to voltage replacement: \n");
 
+        testPrintMatrixValue(
+                convert3x3Determinant(matrixR,0),currentLoops, currentLoops
+        );
 
     }
 
@@ -158,7 +162,7 @@ public class Main {
         System.out.print("\n");
     }
 
-    private static int[][] setDeterminant(int[][] matrix){
+    private static int[][] set3x5Determinant(int[][] matrix){
         int n = currentLoops + (currentLoops -1);
         int[][] newMatrix = new int[currentLoops][n];
 
@@ -173,6 +177,17 @@ public class Main {
             }
         }
         return newMatrix;
+    }
+
+    private static int[][] convert3x3Determinant(int[][] matrix,int column){
+        for(int i = 0; i < currentLoops ; i++){
+            for(int y = 0; y < currentLoops; y++){
+                if(y == column){
+                    matrix[i][y] = voltageMap.get("V"+(i+1));
+                }
+            }
+        }
+        return matrix;
     }
 
 
