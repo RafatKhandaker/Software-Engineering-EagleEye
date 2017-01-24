@@ -43,7 +43,7 @@ public class Main {
         int[][] matrixI = new int[currentLoops][];
         int inMatrixI;
         for(int i = 0; i < currentLoops ;i++){
-            System.out.println("Which resistors are in Current loop" +i +"? ");
+            System.out.println("Which resistors are in Current loop " +(i+1) +"? ");
             inMatrixI = 0;
             for(int y = 0; y < totalResistors ;y++){
                 System.out.println("R" +(y+1) +"? (y or n)");
@@ -72,7 +72,6 @@ public class Main {
                 System.out.print("\n");
                 check++;
             }
-
         }
 
 //------------------------------------Solve Voltages -------------------------------------------------------------------
