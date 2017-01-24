@@ -10,11 +10,13 @@ import java.util.*;
 
 public class Main {
    private static Map<String,Integer> mapResistor = new HashMap<>();
+   private static int currentLoops;
+   private static int[][] matrixR;
+    private static Map<String, Integer> voltageMap;
 
 
     public static void main(String[] args) {
-        int currentLoops;
-        int numResistors;
+
         int numVoltage;
         int totalResistors;
         int resInc = 0;
@@ -43,15 +45,14 @@ public class Main {
 
             }
 
-        int[][] matrixR = new int[currentLoops][currentLoops];
-        int inMatrixR;
+        matrixR = new int[currentLoops][currentLoops];
 
         boolean[][] checkResistDim = new boolean[currentLoops][totalResistors];
         boolean[] addResistDim = new boolean[totalResistors];
 
         for(int i = 0; i < currentLoops ;i++) {
             System.out.println("Which resistors are in Current loop " + (i + 1) + "? ");
-            inMatrixR = 0;
+            int inMatrixR = 0;
             for (int y = 0; y < totalResistors; y++) {
                 System.out.println("R" + (y + 1) + "? (y or n)");
 
@@ -86,29 +87,54 @@ public class Main {
             }
         }
 
- //-----------------------------------------Test matrix Value -------------------------------------------
-            int check = 0;
-            int count = 1;
+//------------------------------------Solve Voltages -------------------------------------------------------------------
+
+
+        voltageMap = new HashMap<>();
+
+        for(int i = 0; i < currentLoops; i++){
+            System.out.println("Number of Voltage sources inside current mesh " +(i+1) +"? :");
+            numVoltage = scanner.nextInt();
+            int voltVal = 0;
+            for(int y = 0; y < numVoltage; y++){
+                System.out.println("what is the value of Voltage source" +(y+1) +" in mesh" +(i+1) +": " +
+                        "(keep convention +/-");
+                voltVal += scanner.nextInt();
+                voltageMap.put("V" +(i+1), voltVal);
+            }
+        }
+
+        testPrintMatrixVal();
+
+    }
+
+    //-----------------------------------------Test matrix Value -------------------------------------------
+
+    private static void testPrintMatrixVal(){
+        int check = 0;
+        int count = 1;
 
         System.out.println("\n\n Printing the Current Matrix Equation: \n");
 
         System.out.println("Resistor | Current | Voltage \n");
 
-            while(check < currentLoops){
-                for(int y = 0; y < currentLoops ; y++){
-                    System.out.print(matrixR[check][y] +" ");
-                    if(y+1 == currentLoops){
-                        System.out.print(" I" +count +"  V" +count);
-                        count++;
-                    }
+        while(check < currentLoops){
+            for(int y = 0; y < currentLoops ; y++){
+                System.out.print(matrixR[check][y] +" ");
+                if(y+1 == currentLoops){
+                    System.out.print("      I" +count +"      " + voltageMap.get("V"+count));
+                    count++;
                 }
-                System.out.print("\n");
-                check++;
             }
+            System.out.print("\n");
+            check++;
+        }
 
         System.out.print("\n \n \n");
+    }
 
-            check = 0;
+    //  check boolean test
+    //            check = 0;
 
 //        while(check < currentLoops){
 //            for(int y = 0; y < totalResistors ; y++){
@@ -120,18 +146,5 @@ public class Main {
 //        }
 //
 //        System.out.println("\n \n");
-
-//------------------------------------Solve Voltages -------------------------------------------------------------------
-        for(int i = 0; i < currentLoops; i++){
-            System.out.println("Number of Voltage sources inside current mesh " +i +"? :");
-            numVoltage = scanner.nextInt();
-
-            for(int y = 0; y < numVoltage; i++){
-//                System.out.println("In Current Mesh " +i +":");
-//                System.out.println("What is the value of Resistor" +(y+1) + "? :");
-//                resistValue[i] = scanner.nextInt();
-            }
-        }
-    }
 
 }
