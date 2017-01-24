@@ -5,7 +5,11 @@ import java.util.*;
 
 /** Testing the correct matrix to print.. pass ... still working on this problem.
  * PS: No calculator was made to solve determinants and matricies  50% Complete .. all the matrix are correct
- Proves the problem can be done **/
+ Proves the problem can be done
+
+ Written By: Rafat Khandaker
+
+ **/
 
 
 public class Main {
