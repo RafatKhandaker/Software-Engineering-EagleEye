@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+
 // Testing the correct matrix to print.. pass ... still working on this problem.  
 /** PS: No calculator was made to solve determinants and matricies **/
 
@@ -68,8 +69,9 @@ public class Main {
  //-----------------------------------------Test matrix Value -------------------------------------------
             int check = 0;
             int count = 1;
+            System.out.println("Resistor | Current | Voltage \n");
+
             while(check < currentLoops){
-                System.out.println("Resistor | Current | Voltage \n");
                 for(int y = 0; y < currentLoops ; y++){
                     System.out.print(matrixI[check][y] +" ");
                     if(y+1 == currentLoops){
