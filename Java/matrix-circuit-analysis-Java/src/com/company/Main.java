@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-
+//  PASS TEST TO CREATE THE CORRECT MATRIX ON DIAGONAL  .. still in progress
 public class Main {
    private static Map<String,Integer> mapResistor = new HashMap<>();
 
@@ -40,7 +40,7 @@ public class Main {
 
             }
 
-        int[][] matrixI = new int[currentLoops][];
+        int[][] matrixI = new int[currentLoops][currentLoops];
         int inMatrixI;
         for(int i = 0; i < currentLoops ;i++){
             System.out.println("Which resistors are in Current loop " +(i+1) +"? ");
@@ -74,7 +74,6 @@ public class Main {
             }
 
         }
-
 //------------------------------------Solve Voltages -------------------------------------------------------------------
         for(int i = 0; i < currentLoops; i++){
             System.out.println("Number of Voltage sources inside current mesh " +i +"? :");
