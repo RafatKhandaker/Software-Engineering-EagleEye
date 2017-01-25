@@ -2,7 +2,6 @@ package com.company;
 
 import java.util.*;
 
-
 /** Testing the correct matrix to print.. pass ... still working on this problem.
  * PS: No calculator was made to solve determinants and matricies  80% Complete .. all the matrix are correct
  the determinant is correct as well... Now solving current values for each mesh
@@ -17,6 +16,7 @@ public class Main {
    private static int currentLoops;
    private static int[][] matrixR;
    private static Map<String, Integer> voltageMap;
+   private static int determinant;
 
     private static int countSize = 0;  //
 
@@ -147,7 +147,32 @@ public class Main {
       //--------------------------------Determinant-----------------------------------------------
 
         countSize = 0;
-        System.out.println(" \n The Determinant is " +solveDeterminant(matrixR));
+
+        determinant = solveDeterminant(matrixR);
+
+        System.out.println(" \n The Determinant is " +determinant);
+
+
+        System.out.println(" \n test print to check matrix value, if altered: \n" );
+
+
+        testPrintMatrixValue(matrixR, currentLoops, currentLoops);
+
+        int[][] convertMatrix0 = convert3x3Determinant(matrixR, 0);
+
+        System.out.println("\n test print convertMatrix \n");
+
+        testPrintMatrixValue(convertMatrix0, currentLoops, currentLoops);
+
+        System.out.println(" \n test print to check matrix value, if altered: \n" );
+
+        testPrintMatrixValue(matrixR, currentLoops, currentLoops);
+
+
+
+
+
+
 
         //        testPrintMatrixValue(
 //                convert3x3Determinant(matrixR,0),currentLoops, currentLoops
@@ -164,17 +189,17 @@ public class Main {
 
         System.out.println("\n\n Printing the Current Matrix Equation: \n");
 
-        System.out.println("Resistor | Current | Voltage \n");
+        System.out.println("Resistor       |     Current   |     Voltage \n");
 
         while(check < loop1){
             for(int y = 0; y < loop2 ; y++){
-                System.out.print(matrix[check][y] +" ");
+                System.out.print(matrix[check][y] +"     ");
                 if(y+1 == loop2){
-                    System.out.print("      I" +count +"      " + voltageMap.get("V"+count));
+                    System.out.print("    I" +count +"             " + voltageMap.get("V"+count));
                     count++;
                 }
             }
-            System.out.print("\n");
+            System.out.print("\n\n\n");
             check++;
         }
 
@@ -241,7 +266,6 @@ public class Main {
         return matrix[x][(loopSize) +shift] * multNegDiagonal(matrix,loopSize, shift);
     }
 
-// 02 11 20
     private static int solveDeterminant(int[][] matrix){
         int result1 = 0;
         int result2 = 0;
@@ -256,13 +280,7 @@ public class Main {
             }
             countSize = 0;
         }
-
-
         return result1 - result2;
     }
-
-
-
-// 00x11x22 + 01x12x23 + 02x13x24
 
 }
