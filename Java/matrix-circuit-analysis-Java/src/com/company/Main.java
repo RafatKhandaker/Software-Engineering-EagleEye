@@ -4,8 +4,8 @@ import java.util.*;
 
 
 /** Testing the correct matrix to print.. pass ... still working on this problem.
- * PS: No calculator was made to solve determinants and matricies  50% Complete .. all the matrix are correct
- Proves the problem can be done
+ * PS: No calculator was made to solve determinants and matricies  80% Complete .. all the matrix are correct
+ the determinant is correct as well... Now solving current values for each mesh
 
  Written By: Rafat Khandaker
 
@@ -114,40 +114,45 @@ public class Main {
 
         testPrintMatrixEquation(matrixR, currentLoops, currentLoops);
 
-        System.out.print("\n Test printing Determinant Value after 3x3 to 3x5 conversion:\n");
+        System.out.print("\n Test printing Determinant Value after 3x3 to 5x3 conversion:\n");
         testPrintMatrixValue(
-                set3x5Determinant(matrixR),currentLoops,(currentLoops + currentLoops-1));
-
-        System.out.print("\n Test print Determinant conversion from 3x3 resistor to voltage replacement: \n");
+                set5x3Determinant(matrixR),currentLoops,(currentLoops + currentLoops-1));
 
         System.out.print("Determinant is equal to diagonal of positive hash minus negative hash");
 
         System.out.println("Test Printing solve positive diagonal of determinant: ");
 
-        System.out.println(multPosDiagonal(set3x5Determinant(matrixR), currentLoops, 0));
+        System.out.println(multPosDiagonal(set5x3Determinant(matrixR), currentLoops, 0));
         countSize = 0;     // reset countSize
-        System.out.println(multPosDiagonal(set3x5Determinant(matrixR), currentLoops, 1));
+        System.out.println(multPosDiagonal(set5x3Determinant(matrixR), currentLoops, 1));
         countSize = 0;
-        System.out.println(multPosDiagonal(set3x5Determinant(matrixR), currentLoops, 2));
+        System.out.println(multPosDiagonal(set5x3Determinant(matrixR), currentLoops, 2));
 
         /** Negative hash of determinant calculations is incorrect values at the moment**/
     //-------------------------------negative determinant-------------------------------------------
 
-//        System.out.println("Test Printing solve negative diagonal of determinant: ");
-//
-//        System.out.println(multPosDiagonal(set3x5Determinant(matrixR), currentLoops, 0));
-//        countSize = 0;     // reset countSize
-//        System.out.println(multPosDiagonal(set3x5Determinant(matrixR), currentLoops, 1));
-//        countSize = 0;
-//        System.out.println(multPosDiagonal(set3x5Determinant(matrixR), currentLoops, 2));
+        System.out.print("\n Test printing Determinant Value after 3x3 to 5x3 conversion:\n");
+
+        testPrintMatrixValue(
+                set5x3Determinant(matrixR),currentLoops,(currentLoops + currentLoops-1));
+
+        System.out.println("Test Printing solve negative diagonal of determinant: ");
+        countSize = 0;
+        System.out.println(multNegDiagonal(set5x3Determinant(matrixR), currentLoops, 0));
+        countSize = 0;
+        System.out.println(multNegDiagonal(set5x3Determinant(matrixR), currentLoops, 1));
+        countSize = 0;
+        System.out.println(multNegDiagonal(set5x3Determinant(matrixR), currentLoops, 2));
 
       //--------------------------------Determinant-----------------------------------------------
 
-//        System.out.println(" The Determinant is " +set3x5Determinant(matrixR));
+        countSize = 0;
+        System.out.println(" \n The Determinant is " +solveDeterminant(matrixR));
 
         //        testPrintMatrixValue(
 //                convert3x3Determinant(matrixR,0),currentLoops, currentLoops
 //        );
+//        System.out.print("\n Test print Determinant conversion from 3x3 resistor to voltage replacement: \n");
 
     }
 
@@ -191,7 +196,7 @@ public class Main {
         System.out.print("\n");
     }
 
-    private static int[][] set3x5Determinant(int[][] matrix){
+    private static int[][] set5x3Determinant(int[][] matrix){
         int n = currentLoops + (currentLoops -1);
         int[][] newMatrix = new int[currentLoops][n];
 
@@ -227,22 +232,24 @@ public class Main {
         return
             (matrix[x][x+shift] * multPosDiagonal(matrix, loopSize, shift));
     }
-    private static int convertSize = currentLoops + (currentLoops--);
 
     private static int multNegDiagonal(int[][] matrix, int loopSize, int shift){
         int x = countSize;
-        if(loopSize < convertSize ){ return 1; }
+        if(countSize == currentLoops ){ return 1; }
         countSize++;
-        return matrix[x][(loopSize-1) +shift] * multNegDiagonal(matrix,loopSize-1, shift);
+        loopSize--;
+        return matrix[x][(loopSize) +shift] * multNegDiagonal(matrix,loopSize, shift);
     }
 
-    private static int solvDeterminant(int[][] matrix){
+// 02 11 20
+    private static int solveDeterminant(int[][] matrix){
         int result1 = 0;
         int result2 = 0;
         for(int i = 0; i < currentLoops; i++){
             if(true) {
-                int x = multPosDiagonal(set3x5Determinant(matrix), currentLoops, i);
-                int y = multNegDiagonal(set3x5Determinant(matrix), currentLoops, i);
+                int x = multPosDiagonal(set5x3Determinant(matrix), currentLoops, i);
+                countSize = 0;
+                int y = multNegDiagonal(set5x3Determinant(matrix), currentLoops, i);
 
                 result1 += x;
                 result2 += y;
