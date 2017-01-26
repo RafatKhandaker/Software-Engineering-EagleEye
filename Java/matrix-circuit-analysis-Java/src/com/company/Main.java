@@ -21,6 +21,7 @@ public class Main {
    private static double[][] matrixR;
 
    private static int countSize = 0;  //
+    private static boolean[][] checkResistDim;
 
 
     public static void main(String[] args) {
@@ -54,7 +55,7 @@ public class Main {
 
         matrixR = new double[currentLoops][currentLoops];
 
-        boolean[][] checkResistDim = new boolean[currentLoops][totalResistors];
+        checkResistDim = new boolean[currentLoops][totalResistors];
         boolean[] addResistDim = new boolean[totalResistors];
 
         for(int i = 0; i < currentLoops ;i++) {
@@ -82,11 +83,13 @@ public class Main {
 
         }
 
+        testBoolMatrixValue(currentLoops, totalResistors);
+
         for(int i = 0; i < currentLoops; i++){
             for(int y = 0; y < currentLoops; y++){
                 if(i != y){
                     for(int z = 0; z < totalResistors; z++){
-                        if(checkResistDim[i][z] == checkResistDim[y][z]){
+                        if(checkResistDim[i][z] && checkResistDim[y][z] == true){
                             matrixR[i][y] -= mapResistor.get("R"+(z+1));
                         }
                     }
@@ -171,6 +174,21 @@ public class Main {
         while(check < loop1){
             for(int y = 0; y < loop2 ; y++){
                 System.out.print(matrix[check][y] +" ");
+
+            }
+            System.out.print("\n");
+            check++;
+        }
+
+        System.out.print("\n");
+    }
+
+    private static void testBoolMatrixValue( int loop1, int loop2 ){
+        int check = 0;
+
+        while(check < loop1){
+            for(int y = 0; y < loop2 ; y++){
+                System.out.print(checkResistDim[check][y] +" ");
 
             }
             System.out.print("\n");
@@ -270,7 +288,7 @@ public class Main {
 
             currentMap.put("I"+i, (detA / determinant));
 
-            System.out.println("\nCurrent Value for Mesh loop "+i+" is : " + -currentMap.get("I"+i) + " amps");
+            System.out.println("\nCurrent Value for Mesh loop "+i+" is : " + currentMap.get("I"+i) + " amps");
 
             revertBack3x3Determinant(matrixR, i);
 
