@@ -288,7 +288,7 @@ public class Main {
 
             currentMap.put("I"+i, (detA / determinant));
 
-            System.out.println("\nCurrent Value for Mesh loop "+i+" is : " + currentMap.get("I"+i) + " amps");
+            System.out.println("\nCurrent Value for Mesh loop "+(i+1)+" is : " + currentMap.get("I"+i) + " amps");
 
             revertBack3x3Determinant(matrixR, i);
 
