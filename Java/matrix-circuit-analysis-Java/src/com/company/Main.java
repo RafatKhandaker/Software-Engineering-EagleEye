@@ -83,7 +83,7 @@ public class Main {
 
         }
 
-        testBoolMatrixValue(currentLoops, totalResistors);
+//        testBoolMatrixValue(currentLoops, totalResistors);
 
         for(int i = 0; i < currentLoops; i++){
             for(int y = 0; y < currentLoops; y++){
