@@ -2,8 +2,7 @@ package com.company;
 
 import java.util.*;
 
-/** 100% complete
-
+/**
  Written By: Rafat Khandaker
 
  **/
@@ -31,7 +30,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Make sure to use one proper convention and keep values consistent..." +
-                "This program will solve the values of the current inside a 3x3 mesh analysis circuit..! \n \n" );
+                "This program will solve the values of the current inside a mesh analysis circuit! \n \n" );
 
 //------------------------------------Solve Current--------------------------------------------------------------------
 
@@ -102,12 +101,14 @@ public class Main {
         for(int i = 0; i < currentLoops; i++){
             System.out.println("Number of Voltage sources inside current mesh " +(i+1) +"? :");
             numVoltage = scanner.nextInt();
-            double voltVal = 0;
-            for(int y = 0; y < numVoltage; y++){
-                System.out.println("what is the value of Voltage source" +(y+1) +" in mesh" +(i+1) +": " +
-                        "(keep convention +/-)");
-                voltVal += scanner.nextInt();
-                voltageMap.put("V" +(i+1), voltVal);
+            if(numVoltage != 0) {
+                double voltVal = 0;
+                for (int y = 0; y < numVoltage; y++) {
+                    System.out.println("what is the value of Voltage source" + (y + 1) + " in mesh" + (i + 1) + ": " +
+                            "(keep convention +/-)");
+                    voltVal += scanner.nextInt();
+                    voltageMap.put("V" + (i + 1), voltVal);
+                }
             }
         }
 
