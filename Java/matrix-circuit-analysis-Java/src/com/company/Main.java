@@ -22,8 +22,7 @@ public class Main {
    private static double[] saveMatrixVal;
    private static double[][] matrixR;
 
-    private static int countSize = 0;  //
-
+   private static int countSize = 0;  //
 
 
     public static void main(String[] args) {
@@ -41,7 +40,6 @@ public class Main {
         System.out.println("How many current loops are in this circuit? ");
         currentLoops = scanner.nextInt();
 
-        int[] current = new int[currentLoops];
         saveMatrixVal = new double[currentLoops];
         currentMap = new HashMap<>();
 
