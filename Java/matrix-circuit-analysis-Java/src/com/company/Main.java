@@ -104,12 +104,14 @@ public class Main {
         for(int i = 0; i < currentLoops; i++){
             System.out.println("Number of Voltage sources inside current mesh " +(i+1) +"? :");
             numVoltage = scanner.nextInt();
-            double voltVal = 0;
-            for(int y = 0; y < numVoltage; y++){
-                System.out.println("what is the value of Voltage source" +(y+1) +" in mesh" +(i+1) +": " +
-                        "(keep convention +/-)");
-                voltVal += scanner.nextInt();
-                voltageMap.put("V" +(i+1), voltVal);
+            if(numVoltage != 0) {
+                double voltVal = 0;
+                for (int y = 0; y < numVoltage; y++) {
+                    System.out.println("what is the value of Voltage source" + (y + 1) + " in mesh" + (i + 1) + ": " +
+                            "(keep convention +/-)");
+                    voltVal += scanner.nextInt();
+                    voltageMap.put("V" + (i + 1), voltVal);
+                }
             }
         }
 
