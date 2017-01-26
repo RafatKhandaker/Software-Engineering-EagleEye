@@ -31,7 +31,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Make sure to use one proper convention and keep values consistent..." +
-                "This program will solve the values of the current inside a mesh analysis circuit! \n \n" );
+                "This program will solve the values of the current inside a 3x3 mesh analysis circuit..! \n \n" );
 
 //------------------------------------Solve Current--------------------------------------------------------------------
 
