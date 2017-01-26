@@ -2,9 +2,7 @@ package com.company;
 
 import java.util.*;
 
-/** Testing the correct matrix to print.. pass ... still working on this problem.
- * PS: No calculator was made to solve determinants and matricies  80% Complete .. all the matrix are correct
- the determinant is correct as well... Now solving current values for each mesh
+/** 100% complete
 
  Written By: Rafat Khandaker
 
