@@ -103,7 +103,7 @@ public class Main {
             System.out.println("Number of Voltage sources inside current mesh " +(i+1) +"? :");
             numVoltage = scanner.nextInt();
 
-            if(numVoltage == 0) {
+            if(numVoltage != 0) {
                 double voltVal = 0;
 
                 for (int y = 0; y < numVoltage; y++) {
