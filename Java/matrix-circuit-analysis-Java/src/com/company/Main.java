@@ -12,11 +12,15 @@ import java.util.*;
 
 public class Main {
 
-   private static Map<String,Integer> mapResistor = new HashMap<>();
+   private static Map<String,Double> mapResistor = new HashMap<>();
+   private static Map<String, Double> voltageMap;
+   private static Map<String, Double> currentMap;
+
    private static int currentLoops;
-   private static int[][] matrixR;
-   private static Map<String, Integer> voltageMap;
-   private static int determinant;
+   private static double determinant;
+
+   private static double[] saveMatrixVal;
+   private static double[][] matrixR;
 
     private static int countSize = 0;  //
 
@@ -26,6 +30,7 @@ public class Main {
 
         int numVoltage;
         int totalResistors;
+
 
 
         Scanner scanner = new Scanner(System.in);
@@ -39,6 +44,7 @@ public class Main {
         currentLoops = scanner.nextInt();
 
         int[] current = new int[currentLoops];
+        saveMatrixVal = new double[currentLoops];
 
 //------------------------------------Solve Resistor-------------------------------------------------------------------
 
@@ -47,11 +53,11 @@ public class Main {
 
             for(int i = 0; i < totalResistors; i++){
                 System.out.println("What is the value of R" +(i+1) +"?: ");
-                mapResistor.put("R"+(i+1),scanner.nextInt());
+                mapResistor.put("R"+(i+1),scanner.nextDouble());
 
             }
 
-        matrixR = new int[currentLoops][currentLoops];
+        matrixR = new double[currentLoops][currentLoops];
 
         boolean[][] checkResistDim = new boolean[currentLoops][totalResistors];
         boolean[] addResistDim = new boolean[totalResistors];
@@ -101,7 +107,7 @@ public class Main {
         for(int i = 0; i < currentLoops; i++){
             System.out.println("Number of Voltage sources inside current mesh " +(i+1) +"? :");
             numVoltage = scanner.nextInt();
-            int voltVal = 0;
+            double voltVal = 0;
             for(int y = 0; y < numVoltage; y++){
                 System.out.println("what is the value of Voltage source" +(y+1) +" in mesh" +(i+1) +": " +
                         "(keep convention +/-)");
@@ -147,7 +153,6 @@ public class Main {
       //--------------------------------Determinant-----------------------------------------------
 
         countSize = 0;
-
         determinant = solveDeterminant(matrixR);
 
         System.out.println(" \n The Determinant is " +determinant);
@@ -158,32 +163,36 @@ public class Main {
 
         testPrintMatrixValue(matrixR, currentLoops, currentLoops);
 
-        int[][] convertMatrix0 = convert3x3Determinant(matrixR, 0);
 
-        System.out.println("\n test print convertMatrix \n");
+        System.out.println(" \n test print to check matrix value, if altered 0: \n" );
+        testPrintMatrixValue(convert3x3Determinant(matrixR,0), currentLoops, currentLoops);
 
-        testPrintMatrixValue(convertMatrix0, currentLoops, currentLoops);
+        System.out.println(" \n test print 5x3 conversion of 0: \n" );
 
-        System.out.println(" \n test print to check matrix value, if altered: \n" );
+        testPrintMatrixValue(
+                set5x3Determinant(matrixR), currentLoops, currentLoops + (currentLoops-1));
 
-        testPrintMatrixValue(matrixR, currentLoops, currentLoops);
+        System.out.println(" \n Test print determinant 0: \n" );
+
+        double detA = solveDeterminant(matrixR);
+        System.out.println(detA);
+
+        currentMap = new HashMap<>();
+
+        currentMap.put("I",(detA/determinant));
+
+        System.out.println("\nCurrent Value for Mesh loop 1 is : " +currentMap.get("I") + " amps");
 
 
+//        testPrintMatrixEquation(
+//        revertBack3x3Determinant(matrixR,0), currentLoops, currentLoops);
 
-
-
-
-
-        //        testPrintMatrixValue(
-//                convert3x3Determinant(matrixR,0),currentLoops, currentLoops
-//        );
-//        System.out.print("\n Test print Determinant conversion from 3x3 resistor to voltage replacement: \n");
 
     }
 
     //-----------------------------------------Test matrix Value -------------------------------------------
 
-    private static void testPrintMatrixEquation(int[][] matrix, int loop1, int loop2 ){
+    private static void testPrintMatrixEquation(double[][] matrix, int loop1, int loop2 ){
         int check = 0;
         int count = 1;
 
@@ -206,7 +215,7 @@ public class Main {
         System.out.print("\n");
     }
 
-    private static void testPrintMatrixValue(int[][] matrix, int loop1, int loop2 ){
+    private static void testPrintMatrixValue(double[][] matrix, int loop1, int loop2 ){
         int check = 0;
 
         while(check < loop1){
@@ -221,9 +230,9 @@ public class Main {
         System.out.print("\n");
     }
 
-    private static int[][] set5x3Determinant(int[][] matrix){
+    private static double[][] set5x3Determinant(double[][] matrix){
         int n = currentLoops + (currentLoops -1);
-        int[][] newMatrix = new int[currentLoops][n];
+        double[][] newMatrix = new double[currentLoops][n];
 
         for(int i = 0; i < currentLoops; i++){
             for(int y = 0; y < n ; y++){
@@ -238,19 +247,33 @@ public class Main {
         return newMatrix;
     }
 
-    private static int[][] convert3x3Determinant(int[][] matrix,int column){
-        int[][] newMatrix = matrix;
+    private static double[][] convert3x3Determinant(double[][] matrix, int column){
+        for(int n = 0; n < currentLoops; n++) {
+            saveMatrixVal[n] = matrix[n][column];
+        }
+
         for(int i = 0; i < currentLoops ; i++){
             for(int y = 0; y < currentLoops; y++){
                 if(y == column){
-                    newMatrix[i][y] = voltageMap.get("V"+(i+1));
+                    matrix[i][y] = voltageMap.get("V"+(i+1));
                 }
             }
         }
-        return newMatrix;
+        return matrix;
     }
 
-    private static int multPosDiagonal(int[][] matrix, int loopSize, int shift){
+    private static double[][] revertBack3x3Determinant(double[][] matrix, int column){
+        for(int i = 0; i < currentLoops ; i++){
+            for(int y = 0; y < currentLoops; y++){
+                if(y == column){
+                    matrix[i][y] = saveMatrixVal[i];
+                }
+            }
+        }
+        return matrix;
+    }
+
+    private static double multPosDiagonal(double[][] matrix, int loopSize, int shift){
         int x = countSize;
         if(countSize == loopSize){ return 1; }
         countSize++;
@@ -258,7 +281,7 @@ public class Main {
             (matrix[x][x+shift] * multPosDiagonal(matrix, loopSize, shift));
     }
 
-    private static int multNegDiagonal(int[][] matrix, int loopSize, int shift){
+    private static double multNegDiagonal(double[][] matrix, int loopSize, int shift){
         int x = countSize;
         if(countSize == currentLoops ){ return 1; }
         countSize++;
@@ -266,14 +289,15 @@ public class Main {
         return matrix[x][(loopSize) +shift] * multNegDiagonal(matrix,loopSize, shift);
     }
 
-    private static int solveDeterminant(int[][] matrix){
+
+    private static int solveDeterminant(double[][] matrix){
         int result1 = 0;
         int result2 = 0;
         for(int i = 0; i < currentLoops; i++){
             if(true) {
-                int x = multPosDiagonal(set5x3Determinant(matrix), currentLoops, i);
+                double x = multPosDiagonal(set5x3Determinant(matrix), currentLoops, i);
                 countSize = 0;
-                int y = multNegDiagonal(set5x3Determinant(matrix), currentLoops, i);
+                double y = multNegDiagonal(set5x3Determinant(matrix), currentLoops, i);
 
                 result1 += x;
                 result2 += y;
@@ -281,6 +305,11 @@ public class Main {
             countSize = 0;
         }
         return result1 - result2;
+    }
+
+    private static double solveCurrentValues(){
+
+        return 0.0;
     }
 
 }
