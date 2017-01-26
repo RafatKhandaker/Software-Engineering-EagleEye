@@ -2,9 +2,7 @@ package com.company;
 
 import java.util.*;
 
-/** Testing the correct matrix to print.. pass ... still working on this problem.
- * PS: No calculator was made to solve determinants and matricies  80% Complete .. all the matrix are correct
- the determinant is correct as well... Now solving current values for each mesh
+/** 
 
  Written By: Rafat Khandaker
 
@@ -104,15 +102,27 @@ public class Main {
         for(int i = 0; i < currentLoops; i++){
             System.out.println("Number of Voltage sources inside current mesh " +(i+1) +"? :");
             numVoltage = scanner.nextInt();
+<<<<<<< HEAD
             if(numVoltage != 0) {
                 double voltVal = 0;
+=======
+
+            if(numVoltage != 0) {
+                double voltVal = 0;
+
+>>>>>>> 3cae429205e5c97a034622fcb7d84cc3f2f9a59e
                 for (int y = 0; y < numVoltage; y++) {
                     System.out.println("what is the value of Voltage source" + (y + 1) + " in mesh" + (i + 1) + ": " +
                             "(keep convention +/-)");
                     voltVal += scanner.nextInt();
                     voltageMap.put("V" + (i + 1), voltVal);
                 }
+<<<<<<< HEAD
             }
+=======
+            }else{  voltageMap.put("V" +(i + 1), 0.0);}
+
+>>>>>>> 3cae429205e5c97a034622fcb7d84cc3f2f9a59e
         }
 
 //-------------------------------Testing Determinant Values----------------------------------------------------------
