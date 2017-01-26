@@ -31,8 +31,6 @@ public class Main {
         int numVoltage;
         int totalResistors;
 
-
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Make sure to use one proper convention and keep values consistent..." +
@@ -45,6 +43,7 @@ public class Main {
 
         int[] current = new int[currentLoops];
         saveMatrixVal = new double[currentLoops];
+        currentMap = new HashMap<>();
 
 //------------------------------------Solve Resistor-------------------------------------------------------------------
 
@@ -126,29 +125,6 @@ public class Main {
 
         System.out.print("Determinant is equal to diagonal of positive hash minus negative hash");
 
-        System.out.println("Test Printing solve positive diagonal of determinant: ");
-
-        System.out.println(multPosDiagonal(set5x3Determinant(matrixR), currentLoops, 0));
-        countSize = 0;     // reset countSize
-        System.out.println(multPosDiagonal(set5x3Determinant(matrixR), currentLoops, 1));
-        countSize = 0;
-        System.out.println(multPosDiagonal(set5x3Determinant(matrixR), currentLoops, 2));
-
-        /** Negative hash of determinant calculations is incorrect values at the moment**/
-    //-------------------------------negative determinant-------------------------------------------
-
-        System.out.print("\n Test printing Determinant Value after 3x3 to 5x3 conversion:\n");
-
-        testPrintMatrixValue(
-                set5x3Determinant(matrixR),currentLoops,(currentLoops + currentLoops-1));
-
-        System.out.println("Test Printing solve negative diagonal of determinant: ");
-        countSize = 0;
-        System.out.println(multNegDiagonal(set5x3Determinant(matrixR), currentLoops, 0));
-        countSize = 0;
-        System.out.println(multNegDiagonal(set5x3Determinant(matrixR), currentLoops, 1));
-        countSize = 0;
-        System.out.println(multNegDiagonal(set5x3Determinant(matrixR), currentLoops, 2));
 
       //--------------------------------Determinant-----------------------------------------------
 
@@ -157,36 +133,7 @@ public class Main {
 
         System.out.println(" \n The Determinant is " +determinant);
 
-
-        System.out.println(" \n test print to check matrix value, if altered: \n" );
-
-
-        testPrintMatrixValue(matrixR, currentLoops, currentLoops);
-
-
-        System.out.println(" \n test print to check matrix value, if altered 0: \n" );
-        testPrintMatrixValue(convert3x3Determinant(matrixR,0), currentLoops, currentLoops);
-
-        System.out.println(" \n test print 5x3 conversion of 0: \n" );
-
-        testPrintMatrixValue(
-                set5x3Determinant(matrixR), currentLoops, currentLoops + (currentLoops-1));
-
-        System.out.println(" \n Test print determinant 0: \n" );
-
-        double detA = solveDeterminant(matrixR);
-        System.out.println(detA);
-
-        currentMap = new HashMap<>();
-
-        currentMap.put("I",(detA/determinant));
-
-        System.out.println("\nCurrent Value for Mesh loop 1 is : " +currentMap.get("I") + " amps");
-
-
-//        testPrintMatrixEquation(
-//        revertBack3x3Determinant(matrixR,0), currentLoops, currentLoops);
-
+        solveCurrentValues();
 
     }
 
@@ -307,9 +254,24 @@ public class Main {
         return result1 - result2;
     }
 
-    private static double solveCurrentValues(){
+    private static void solveCurrentValues(){
+        double detA;
 
-        return 0.0;
+        for(int i = 0; i < currentLoops; i++) {
+
+            convert3x3Determinant(matrixR, i);
+            set5x3Determinant(matrixR);
+
+            countSize = 0;
+            detA = solveDeterminant(matrixR);
+
+            currentMap.put("I"+i, (detA / determinant));
+
+            System.out.println("\nCurrent Value for Mesh loop "+i+" is : " + currentMap.get("I"+i) + " amps");
+
+            revertBack3x3Determinant(matrixR, i);
+
+        }
     }
 
 }
