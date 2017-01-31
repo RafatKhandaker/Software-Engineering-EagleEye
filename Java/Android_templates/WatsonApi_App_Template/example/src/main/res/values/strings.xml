@@ -1,0 +1,18 @@
+<resources>
+  <string name="app_name">Ask Watson App</string>
+  <string name="translation_label">Translation:</string>
+  <string name="translate">translate</string>
+  <string name="input_hint">enter text</string>
+  <string name="target_language">Target Language</string>
+  <string name="spanish">Spanish</string>
+  <string name="french">French</string>
+  <string name="italian">Italian</string>
+  <string name="microphone">Microphone</string>
+  <string name="play">Play</string>
+  <string name="language_translation_username">3cd751f6-b86a-4f06-825e-020332a0ce72</string>
+  <string name="language_translation_password">R0Q5iEiSwh0B</string>
+  <string name="speech_text_username">0d6f1399-7b5d-469f-93a9-c6c2fed94f01</string>
+  <string name="speech_text_password">MZJAwre3bx8J</string>
+  <string name="text_speech_username">0d6f1399-7b5d-469f-93a9-c6c2fed94f01</string>
+  <string name="text_speech_password">MZJAwre3bx8J</string>
+</resources>
