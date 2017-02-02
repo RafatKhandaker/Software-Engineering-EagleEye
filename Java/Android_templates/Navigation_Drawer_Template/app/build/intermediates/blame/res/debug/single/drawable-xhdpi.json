@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/merged/debug/drawable-xhdpi/drawer_shadow.9.png",
+        "source": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/res/drawable-xhdpi/drawer_shadow.9.png"
+    },
+    {
+        "merged": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_drawer.png",
+        "source": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/res/drawable-xhdpi/ic_drawer.png"
+    },
+    {
+        "merged": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/merged/debug/drawable-xhdpi/action_search.png",
+        "source": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/res/drawable-xhdpi/action_search.png"
+    },
+    {
+        "merged": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/merged/debug/layout/drawer_list_item.xml",
+        "source": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/res/layout/drawer_list_item.xml"
+    },
+    {
+        "merged": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/merged/debug/layout/fragment_planet.xml",
+        "source": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/res/layout/fragment_planet.xml"
+    }
+]

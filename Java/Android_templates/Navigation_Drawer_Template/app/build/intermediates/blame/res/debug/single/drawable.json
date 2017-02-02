@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/merged/debug/drawable/venus.jpg",
+        "source": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/res/drawable/venus.jpg"
+    },
+    {
+        "merged": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/merged/debug/drawable/mars.jpg",
+        "source": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/res/drawable/mars.jpg"
+    },
+    {
+        "merged": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/merged/debug/drawable/mercury.jpg",
+        "source": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/res/drawable/mercury.jpg"
+    },
+    {
+        "merged": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/merged/debug/drawable/earth.jpg",
+        "source": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/res/drawable/earth.jpg"
+    },
+    {
+        "merged": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/merged/debug/drawable/uranus.jpg",
+        "source": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/res/drawable/uranus.jpg"
+    },
+    {
+        "merged": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/merged/debug/drawable/neptune.jpg",
+        "source": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/res/drawable/neptune.jpg"
+    },
+    {
+        "merged": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/merged/debug/drawable/saturn.jpg",
+        "source": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/res/drawable/saturn.jpg"
+    },
+    {
+        "merged": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/merged/debug/drawable/jupiter.jpg",
+        "source": "/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/res/drawable/jupiter.jpg"
+    }
+]
