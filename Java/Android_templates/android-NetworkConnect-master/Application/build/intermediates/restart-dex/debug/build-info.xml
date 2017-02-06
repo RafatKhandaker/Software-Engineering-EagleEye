@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="24"
+    density="560dpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="1888530695300"
+    token="5823672762120297881"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="3869" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="763" />
+    <task
+        name="verifier"
+        duration="52" />
+
+    <artifact
+        location="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/outputs/apk/Application-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="1888530695300"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/outputs/apk/Application-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

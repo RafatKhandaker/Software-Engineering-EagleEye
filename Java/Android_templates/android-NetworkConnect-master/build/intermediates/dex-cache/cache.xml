@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_e887d100962d456bd17c1489c71e34ba7ae6c7e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_26e726426ae6041206840e345d44708d8f6e566e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_689a63306f0f84fadb3d206285c1f94a3408ecff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f1c6cafe2ed25af1bfbcf88680b3a3a677184067">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8e71e68e5681f84826748a0291a9efeeaa12371b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_8dc78def3260f03b2f556db41ec52f0343d8308a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_78515c65966f1820a638796832d6027b3d7c15d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4700f436ede140fb804204f806c9cc3f08e386f4">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-gridlayout-v7-25.0.1_ad610c8fc176d60b89c2bb1355da6e87c3f5e584/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_a9df51b4e0c83239ea036acb8a69dc47ab190516/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_4b413991fc4eae68c930dd5d4ec4edbc50713c92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_76c5aa8c9300e45d7c18b6bff19ccde7f9d6a8ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_3a7102e0acdd4dc5e95ac48736f0e0f773391827/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_c385f16d9283c2a1819af12a072f9a7decfe7730/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_297acc45c2c61d8c886f82af1dd6bdbabbd7a9ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38e37d47c52b29a010c5a08a6198d4a754dbf8bd">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e1c002875d3217bb4cbf3357f8eb0adc4d7dcfeb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_2680e4886d3cc6b68f792fffb5be6ba8d9aa855d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_b909493477de7034b777ed62f51a11a621fcc864/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_76497bdc8fb1fc7073e4c9eea4fac1cf4ed2b67d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_401bfa611889e645ec7bd51d906c10f8a547a414/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.1_a409c6a2b22c1ec05d80b4ec7e1f6db60a0b3f58/classes.dex" />
+    </item>
+
+</items>

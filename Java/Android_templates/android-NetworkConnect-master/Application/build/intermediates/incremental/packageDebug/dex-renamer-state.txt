@@ -1,0 +1,7 @@
+#Thu Feb 02 13:21:42 EST 2017
+base.0=/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8e71e68e5681f84826748a0291a9efeeaa12371b
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e1c002875d3217bb4cbf3357f8eb0adc4d7dcfeb/classes.dex
+base.1=/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e1c002875d3217bb4cbf3357f8eb0adc4d7dcfeb
+file.0=/Users/RedDragon/Desktop/android-NetworkConnect-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8e71e68e5681f84826748a0291a9efeeaa12371b/classes.dex
