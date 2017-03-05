@@ -1,7 +1,7 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="CSharpIntro/CSharpIntro.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSharpIntro/MyClass.cs">
     <Files>
-      <File FileName="CSharpIntro/MyClass.cs" Line="8" Column="28" />
+      <File FileName="CSharpIntro/MyClass.cs" Line="1" Column="1" />
       <File FileName="CSharpIntro/CSharpIntro.csproj" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
