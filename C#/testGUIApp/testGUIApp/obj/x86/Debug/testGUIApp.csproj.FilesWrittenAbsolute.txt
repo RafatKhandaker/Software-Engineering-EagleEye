@@ -1,0 +1,7 @@
+/Users/RedDragon/Projects/testGUIApp/testGUIApp/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/RedDragon/Projects/testGUIApp/testGUIApp/obj/x86/Debug/testGUIApp.gtk-gui.gui.stetic
+/Users/RedDragon/Projects/testGUIApp/testGUIApp/bin/Debug/testGUIApp.exe.mdb
+/Users/RedDragon/Projects/testGUIApp/testGUIApp/bin/Debug/testGUIApp.exe
+/Users/RedDragon/Projects/testGUIApp/testGUIApp/obj/x86/Debug/testGUIApp.exe
+/Users/RedDragon/Projects/testGUIApp/testGUIApp/obj/x86/Debug/testGUIApp.exe.mdb
+/Users/RedDragon/Projects/testGUIApp/testGUIApp/bin/Debug/Simplify.Windows.Forms.dll
