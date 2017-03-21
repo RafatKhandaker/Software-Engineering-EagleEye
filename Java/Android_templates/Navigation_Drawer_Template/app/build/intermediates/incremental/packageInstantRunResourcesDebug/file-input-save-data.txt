@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Feb 02 11:00:59 EST 2017
+#Sat Mar 18 18:03:20 EDT 2017
 8.set=ANDROID_RESOURCE
 1.base=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_
 1.file=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
@@ -11,7 +11,7 @@
 5.file=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_/resources.arsc
 7.base=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_
 7.file=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_/res/drawable/mercury.jpg
-11.file=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_/res/menu/main.xml
+11.file=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/action_search.png
 11.base=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_
 9.base=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_
 9.file=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_/res/drawable/venus.jpg
@@ -43,7 +43,7 @@
 8.base=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_
 8.file=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 2.set=ANDROID_RESOURCE
-12.file=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/action_search.png
+12.file=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_/res/menu/main.xml
 12.base=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_
 14.file=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_/res/drawable/mars.jpg
 14.base=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/res/resources-debug.ap_

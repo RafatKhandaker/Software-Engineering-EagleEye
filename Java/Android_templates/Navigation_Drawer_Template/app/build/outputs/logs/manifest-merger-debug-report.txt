@@ -17,7 +17,7 @@ ADDED from /Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/And
 		ADDED from /Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/AndroidManifest.xml:17:11-69
 uses-sdk
 ADDED from /Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/AndroidManifest.xml:22:5-74
-MERGED from [com.android.support:support-v4:23.4.0] /Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/blackjack/.android/build-cache/83e2df2ed8dd5c1c365c1fa7c5515118abe1103d/output/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		ADDED from /Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/AndroidManifest.xml:22:42-71
 		INJECTED from /Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/AndroidManifest.xml
@@ -28,7 +28,7 @@ MERGED from [com.android.support:support-v4:23.4.0] /Volumes/DATAFILES/Programmi
 		INJECTED from /Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/AndroidManifest.xml
 application
 ADDED from /Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/AndroidManifest.xml:24:5-38:19
-MERGED from [com.android.support:support-v4:23.4.0] /Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/blackjack/.android/build-cache/83e2df2ed8dd5c1c365c1fa7c5515118abe1103d/output/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/src/main/AndroidManifest.xml:25:9-41
 	android:icon

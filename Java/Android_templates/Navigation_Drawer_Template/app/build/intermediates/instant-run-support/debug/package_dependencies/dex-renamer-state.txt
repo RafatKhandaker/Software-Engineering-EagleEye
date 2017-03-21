@@ -1,0 +1,10 @@
+#Sat Mar 18 17:52:33 EDT 2017
+renamed.2=classes.dex
+renamed.1=classes3.dex
+renamed.0=classes2.dex
+base.2=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_29a15b7d27047906641df26db7036694c94932d6
+base.1=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb21cc48247411a7c12971fa5bf61b4bd09bef18
+base.0=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_dcae2d8b4cabfb757b527604a6c4aaaf19490aaa
+file.2=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_29a15b7d27047906641df26db7036694c94932d6/classes.dex
+file.1=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb21cc48247411a7c12971fa5bf61b4bd09bef18/classes.dex
+file.0=/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_dcae2d8b4cabfb757b527604a6c4aaaf19490aaa/classes.dex

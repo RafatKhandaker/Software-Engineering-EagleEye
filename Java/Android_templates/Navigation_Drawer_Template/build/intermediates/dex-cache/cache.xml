@@ -3,21 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jar="/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_4bdcf7338bf63aa0012e8f59d8a514f1aa106585/classes.dex" />
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c07ceebacdac691a58c26b9f794634fce01bfaaf/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jar="/Users/blackjack/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_a4ba6195c4e320537d9e45f5ce5908848b6f9445/classes.dex" />
+        <dex dex="/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_29a15b7d27047906641df26db7036694c94932d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/blackjack/.android/build-cache/83e2df2ed8dd5c1c365c1fa7c5515118abe1103d/output/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_dcae2d8b4cabfb757b527604a6c4aaaf19490aaa/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -25,26 +34,17 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7fa29196ee1f2298953394562b0f6d7b71f2274f">
-        <dex dex="/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_62c41b44dc6a51db5891050db8f9e80800a47e57/classes.dex" />
+        sha1="19f4816ceec228b1dae6214a601cf26b366706e4">
+        <dex dex="/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_62c41b44dc6a51db5891050db8f9e80800a47e57/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="58b9fd33ba2ada221c6a6f1acec9b8fb4e16bb82">
-        <dex dex="/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c07ceebacdac691a58c26b9f794634fce01bfaaf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jar="/Users/blackjack/.android/build-cache/83e2df2ed8dd5c1c365c1fa7c5515118abe1103d/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_f9622bbe70c1d742af559acf469259472e9837d3/classes.dex" />
+        <dex dex="/Volumes/DATAFILES/Programming/Software-Engineering-OverView/Java/Android_templates/Navigation_Drawer_Template/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb21cc48247411a7c12971fa5bf61b4bd09bef18/classes.dex" />
     </item>
 
 </items>

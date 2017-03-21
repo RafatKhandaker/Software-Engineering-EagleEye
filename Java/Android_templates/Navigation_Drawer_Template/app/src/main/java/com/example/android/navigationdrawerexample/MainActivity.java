@@ -26,6 +26,7 @@ import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -89,7 +90,7 @@ public class MainActivity extends Activity {
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
         // enable ActionBar app icon to behave as action to toggle nav drawer
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+               getActionBar().setDisplayHomeAsUpEnabled(true);
         getActionBar().setHomeButtonEnabled(true);
 
         // ActionBarDrawerToggle ties together the the proper interactions
@@ -136,6 +137,14 @@ public class MainActivity extends Activity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch(item.getItemId()){
+
+            case R.id.main_menu:
+                        Log.d("on menu click pass: ", "main activity");
+
+                return true;
+        }
 
          // The action bar home/up action should open or close the drawer.
          // ActionBarDrawerToggle will take care of this.
