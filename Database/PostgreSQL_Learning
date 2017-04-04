@@ -94,3 +94,24 @@ select * from company where age in('20','34,'40); -->
 select * from company where age between 23 and 34;							
 
 ---------------left off video 11------
+
+------------------------CHECK CONSTRAINT-----------------------------------
+
+create table products(
+product_no integer, 
+name text, 
+price numeric CHECK(price > 0), 
+discount_price numeric CHECK(price > 0), CHECK(price > discount_price)
+);
+
+*   this creates a table with columns that check constraint    *
+
+insert into products values(2, 'Soap', 10, 12);
+
+*   Test will check if this statement fail due to constraints *
+
+
+------------------------------ 12 -----------------------------------------
+
+
+
