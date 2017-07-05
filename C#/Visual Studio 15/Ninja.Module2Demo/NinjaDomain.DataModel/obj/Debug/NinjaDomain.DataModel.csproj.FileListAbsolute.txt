@@ -1,0 +1,14 @@
+C:\Users\rkhand200\Documents\Visual Studio 2015\Projects\Ninja.Module2Demo\NinjaDomain.DataModel\bin\Debug\NinjaDomain.DataModel.dll.config
+C:\Users\rkhand200\Documents\Visual Studio 2015\Projects\Ninja.Module2Demo\NinjaDomain.DataModel\bin\Debug\NinjaDomain.DataModel.dll
+C:\Users\rkhand200\Documents\Visual Studio 2015\Projects\Ninja.Module2Demo\NinjaDomain.DataModel\bin\Debug\NinjaDomain.DataModel.pdb
+C:\Users\rkhand200\Documents\Visual Studio 2015\Projects\Ninja.Module2Demo\NinjaDomain.DataModel\bin\Debug\EntityFramework.dll
+C:\Users\rkhand200\Documents\Visual Studio 2015\Projects\Ninja.Module2Demo\NinjaDomain.DataModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rkhand200\Documents\Visual Studio 2015\Projects\Ninja.Module2Demo\NinjaDomain.DataModel\bin\Debug\NinjaDomain.Classes.dll
+C:\Users\rkhand200\Documents\Visual Studio 2015\Projects\Ninja.Module2Demo\NinjaDomain.DataModel\bin\Debug\NinjaDomain.Classes.pdb
+C:\Users\rkhand200\Documents\Visual Studio 2015\Projects\Ninja.Module2Demo\NinjaDomain.DataModel\bin\Debug\EntityFramework.xml
+C:\Users\rkhand200\Documents\Visual Studio 2015\Projects\Ninja.Module2Demo\NinjaDomain.DataModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rkhand200\Documents\Visual Studio 2015\Projects\Ninja.Module2Demo\NinjaDomain.DataModel\obj\Debug\NinjaDomain.DataModel.csprojResolveAssemblyReference.cache
+C:\Users\rkhand200\Documents\Visual Studio 2015\Projects\Ninja.Module2Demo\NinjaDomain.DataModel\obj\Debug\NinjaDomain.DataModel.dll
+C:\Users\rkhand200\Documents\Visual Studio 2015\Projects\Ninja.Module2Demo\NinjaDomain.DataModel\obj\Debug\NinjaDomain.DataModel.pdb
+C:\Users\rkhand200\Documents\Visual Studio 2015\Projects\Ninja.Module2Demo\NinjaDomain.DataModel\obj\Debug\NinjaDomain.DataModel.Migrations.Initial.resources
+C:\Users\rkhand200\Documents\Visual Studio 2015\Projects\Ninja.Module2Demo\NinjaDomain.DataModel\obj\Debug\NinjaDomain.DataModel.csproj.GenerateResource.Cache

@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>List</title>
+</head>
+<body>
+    <h1>Process List</h1>
+    <div>
+        <ul>
+            @foreach (var process in this.Model)
+            {
+ <!-- encoding html is important in the case of saving data into database and pulling into view ( or else the non - encoded line can be viewed as java-script XSS in return post from database) -->
+        <!--    <li>@Html.Encode(process.ProcessName)</li> -->
+             <li>@process.ProcessName,  @process.Id </li> 
+            }
+        </ul> 
+    </div>
+</body>
+</html>
