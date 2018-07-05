@@ -31,7 +31,7 @@
                         "Assign Date": "02-03-2018",
                         "Priority": "3",
                         "Status": "pending"
-           },
+                },
 
 	        { 
                         "Id": "5",
@@ -71,7 +71,7 @@
                         "Assign Date": "05-18-2018",
                         "Priority": "1",
                         "Status": "pending"
-                }
+                },
 
 	]
 }
