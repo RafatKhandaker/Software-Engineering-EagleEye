@@ -1,6 +1,5 @@
 {
-	"Tasks":
-	[
+
 		{
 			"Id": "1",
 			"Name": "Task 1",
@@ -71,7 +70,5 @@
                         "Assign Date": "05-18-2018",
                         "Priority": "1",
                         "Status": "pending"
-                },
-
-	]
+                }
 }
