@@ -6,7 +6,7 @@
 			"Name": "Task 1",
 			"Assign Date": "01-12-2018",
 			"Priority": "2",
-			"Status": "1".	
+			"Status": "1"	
 		},
 
  	        { 
@@ -14,7 +14,7 @@
                         "Name": "Task 2",
                         "Assign Date": "02-10-2018",
                         "Priority": "1",
-                        "Status": "complete".
+                        "Status": "complete"
                 },
 
 	        { 
@@ -22,7 +22,7 @@
                         "Name": "Task 3",
                         "Assign Date": "03-01-2018",
                         "Priority": "2",
-                        "Status": "complete".
+                        "Status": "complete"
                 },
 
 	        { 
@@ -30,7 +30,7 @@
                         "Name": "Task 4",
                         "Assign Date": "02-03-2018",
                         "Priority": "3",
-                        "Status": "pending".
+                        "Status": "pending"
            },
 
 	        { 
@@ -38,7 +38,7 @@
                         "Name": "Task 5",
                         "Assign Date": "04-18-2018",
                         "Priority": "1",
-                        "Status": "pending".
+                        "Status": "pending"
                 },
 
   		{ 
@@ -46,7 +46,7 @@
                         "Name": "Task 6",
                         "Assign Date": "04-30-2018",
                         "Priority": "4",
-                        "Status": "complete".
+                        "Status": "complete"
                 },
 
 	        { 
@@ -54,7 +54,7 @@
                         "Name": "Task 7",
                         "Assign Date": "05-03-2018",
                         "Priority": "2",
-                        "Status": "pending".
+                        "Status": "pending"
                 },
 
 	        { 
@@ -62,7 +62,7 @@
                         "Name": "Task 8",
                         "Assign Date": "05-04-2018",
                         "Priority": "3",
-                        "Status": "complete".
+                        "Status": "complete"
                 },
 
  	        { 
@@ -70,7 +70,7 @@
                         "Name": "Task 9",
                         "Assign Date": "05-18-2018",
                         "Priority": "1",
-                        "Status": "pending".
+                        "Status": "pending"
                 }
 
 	]
