@@ -1,0 +1,15 @@
+<html>
+    <head></head>
+    <body>
+        Today's message is: <span data-bind="text: myMessage"></span>
+ 
+        <script type="text/javascript">
+            var viewModel = {
+                myMessage: ko.observable() // Initially blank
+            };
+            viewModel.myMessage("Hello, world!"); // Text appears
+        </script>
+        <script src="http://knockoutjs.com/downloads/knockout-3.4.2.js" type="text/javascript"></script>
+    </body>
+    <footer></footer>
+</html>
