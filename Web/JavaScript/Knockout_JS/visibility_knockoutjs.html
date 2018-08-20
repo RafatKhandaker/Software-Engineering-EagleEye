@@ -1,0 +1,15 @@
+<html>
+    <head></head>
+    <body>
+            <div data-bind="visible: shouldShowMessage">You will see this message only when "shouldShowMessage" holds a true value.</div>              
+                <script type="text/javascript">
+                    var viewModel = {
+                        shouldShowMessage: ko.observable(true) // Message initially visible
+                    };
+                    viewModel.shouldShowMessage(false); // ... now it's hidden
+                    viewModel.shouldShowMessage(true); // ... now it's visible again
+                </script>        
+                 <script src="http://knockoutjs.com/downloads/knockout-3.4.2.js" type="text/javascript"></script>
+    </body>
+    <footer></footer>
+</html>

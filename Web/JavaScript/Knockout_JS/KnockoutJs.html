@@ -1,0 +1,40 @@
+<html>
+
+    <!-- MVVM Example with knockout JS  
+        Notes:  *Dependency Tracking -> Dynamic UI Update with data models
+                *Declarative bindings -> UI to Data model with nested binding contexts (complex/dynamic)
+                *Extensible -> Implement custom behaviors with new declarative bindings for ease of usage.
+                *Compatibility: (IE 6+ / Firefox 2+ / Chrome / Safari / Edge , others)
+                *Functionality: Detectable on other browsers with check verification. 
+                * Complementary & usable with JQuery * 
+    -->
+    <head></head>
+    <body>
+        <script src="http://knockoutjs.com/downloads/knockout-3.4.2.js" type="text/javascript"></script>
+        <h3>Choose a Ticket Class</h3>
+
+        <select data-bind="options: tickets, 
+                           optionsCaption: 'Choose...',
+                           optionsText: 'name',
+                           value: chosenTicket"></select>
+    
+        <button data-bind="enable: chosenTicket,
+                           click: resetTicket">Clear</button>
+        
+        <p data-bind="with: chosenTicket">You have chosen <b data-bind="text: name"></b>($<span data-bind="text: price"></span>)</p>
+
+        <script type="text/javascript">
+            function TicketsViewModel(){
+                this.tickets = [
+                    { name: "Economy", price: 199.95 },
+                    { name: "Business", price: 449.22 },
+                    { name: "First Class", price: 1199.99 }
+                ];
+                this.chosenTicket = ko.observable();
+                this.resetTicket = function(){ this.chosenTicket(null) }
+            }
+            ko.applyBindings( new TicketsViewModel() );
+        </script>
+        
+    </body>
+</html>
